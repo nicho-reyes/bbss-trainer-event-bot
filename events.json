@@ -2335,6 +2335,47 @@
       "Skill discount" : 3
     }
   },
+  "Riki" : {
+    "King of hanazono" : {
+      "Affinity" : 8,
+      "SP" : 15,
+      "STR" : 15
+    },
+    "Love Counselor" : {
+      "Affinity" : 8,
+      "SP" : 40,
+      "STR" : 40
+    },
+    "New Waves (Perfect Victory)" : {
+      "Affinity" : 8,
+      "GP" : 300,
+      "SP" : 30,
+      "STR" : 15
+    },
+    "Riki the Stud (costume)" : {
+      "Affinity" : 8,
+      "SP" : 40,
+      "STR" : 80
+    },
+    "Riki's Girlfriend" : {
+      "Affinity" : 8,
+      "SP" : 15,
+      "STR" : 15
+    },
+    "Riki's secret" : {
+      "Stamina" : 40
+    },
+    "Serious Story" : {
+      "Affinity" : 8,
+      "SP" : 40,
+      "Skill discount" : "3 burst"
+    },
+    "Together with Riki" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "STR" : 50
+    }
+  },
   "Rose" : {
     "A Rude Girl" : {
       "GP" : 400,
@@ -2946,6 +2987,63 @@
       "DEX" : 30,
       "MNT" : 30,
       "SP" : 30
+    }
+  },
+  "Yomi" : {
+    "A Lonely Girl" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Cheerleader Dreams (costume)" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "MNT" : 60,
+      "SP" : 60
+    },
+    "Goodbye in Advance" : {
+      "MNT" : 20,
+      "SP" : 20,
+      "Skill discount" : 2,
+      "Stamina" : 20
+    },
+    "Lonely Yomi (PERFECT VICTORY)" : {
+      "Affinity" : 8,
+      "GP" : 400,
+      "MNT" : 20,
+      "SP" : 40,
+      "Skill discount" : 2
+    },
+    "Senior Possessed - Cheer yomi on" : {
+      "Affinity" : 8,
+      "MNT" : 25,
+      "SP" : 20,
+      "Skill discount" : "3 random"
+    },
+    "Specky Possesed - Dodge him" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "Skill discount" : 2
+    },
+    "Specky Possessed - Slap him in the face" : {
+      "Affinity" : 8,
+      "SP" : 20,
+      "Stamina" : 30,
+      "dex" : 20
+    },
+    "Yomi and Baseball - Ask her why" : {
+      "INT" : 20,
+      "MNT" : 25,
+      "Mood" : 1,
+      "SP" : 20
+    },
+    "Yomi and Baseball - Play with her" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "SP" : 50,
+      "STR" : 50
     }
   },
   "Zena" : {
