@@ -213,6 +213,52 @@
       "Stamina" : 40
     }
   },
+  "Ditto" : {
+    "A Wandering Inventor" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "Dividends" : {
+      "GP" : 1000,
+      "INT" : 40,
+      "Mood" : 1,
+      "SP" : 50,
+      "Skill discount" : "3 random"
+    },
+    "Extra cost - invest 400g" : {
+      "Affinity" : 18,
+      "GP" : -400,
+      "INT" : 30,
+      "SP" : 30,
+      "Skill discount" : 1
+    },
+    "Future Investing" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "SP" : 60,
+      "Skill discount" : "3 and 3 or 5 random"
+    },
+    "Mega Fail" : {
+      "GP" : 150,
+      "INT" : 30,
+      "SP" : 30,
+      "skill discount" : 1
+    },
+    "The research begins - do not invest " : {
+      "INT" : 40,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "The research begins - invest 100g" : {
+      "Affinity" : 13,
+      "GP" : -100,
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    }
+  },
   "Dragona" : {
     "Dragon legend" : {
       "Affinity" : 8,
@@ -992,6 +1038,105 @@
       "Skill discount" : "2 or 3 power batter"
     }
   },
+  "Pluto" : {
+    "Deja Vu" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    },
+    "Existence" : {
+      "Affinity" : 8,
+      "Mood" : 1,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Fate (PLUS)" : {
+      "INT" : 60,
+      "MNT" : 60,
+      "SP" : 50,
+      "Skill discount" : 3
+    },
+    "Human - any option" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "Skill discount" : 1
+    },
+    "Pluto's Identity (costume)" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "MNT" : 60,
+      "SP" : 60,
+      "Skill discount" : "2 and 2 left arm and resolve(could be random)"
+    },
+    "Pluto's Past (costume)" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "INT" : 60,
+      "SP" : 60,
+      "STR" : 30,
+      "Skill discount" : 2
+    },
+    "Time (PLUS)" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "MNT" : 120,
+      "SP" : 50
+    }
+  },
+  "Psyker" : {
+    "Being popular - try learning (success)" : {
+      "Affinity" : 8,
+      "DEX" : 40,
+      "INT" : 40,
+      "Skill discount" : "3 - high chance of v-slider"
+    },
+    "Dangerous trick" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "INT" : 60,
+      "MNT" : 60,
+      "SP" : 40
+    },
+    "Popularity - Yes" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "INT" : 60,
+      "MNT" : 50,
+      "SP" : 60,
+      "Skill discount" : "pretty sure there is but my spreadsheet got modified with wrong info"
+    },
+    "Psyker in Danger (PLUS)" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "INT" : 60,
+      "MNT" : 50,
+      "SP" : 60
+    },
+    "Psyker the Psycho?" : {
+      "INT" : 40,
+      "MNT" : 30,
+      "Mood" : -1,
+      "SP" : 30,
+      "Skill discount" : 3
+    },
+    "Psyker the magician" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "Mood" : 1,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Pure Love (Costume)" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "GP" : 200,
+      "MNT" : 60,
+      "SP" : 50,
+      "STR" : 50
+    }
+  },
   "Rachel" : {
     "An Elegant Girl" : {
       "Affinity" : 8,
@@ -1398,6 +1543,51 @@
       "MNT" : 20,
       "SP" : 60,
       "STR" : 50
+    }
+  },
+  "Valentine" : {
+    "Delusion" : {
+      "Affinity" : 8,
+      "DEX" : 80,
+      "MNT" : 80,
+      "SP" : 60
+    },
+    "Valentine's Man" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "Mood" : -1,
+      "SP" : 50,
+      "Skill discount" : 2
+    },
+    "a boquet - pretend to be more sullen (failure)" : {
+      "DEX" : 20,
+      "SP" : 20
+    },
+    "a boquet - pretend to be more sullen (success)" : {
+      "DEX" : 60,
+      "Mood" : 1,
+      "SP" : 40,
+      "Skill discount" : 3,
+      "affinity" : 8
+    },
+    "a boquet - tell her you're okay" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "MNT" : 30,
+      "Mood" : 1
+    },
+    "a gorgeous succubus" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "MNT" : 30,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "valentine time" : {
+      "Affinity" : 8,
+      "DEX" : 80,
+      "MNT" : 80,
+      "SP" : 60
     }
   },
   "Violet" : {
