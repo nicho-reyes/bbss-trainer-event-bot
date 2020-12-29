@@ -1,0 +1,1432 @@
+{
+  "Ara" : {
+    "Ara's playlist (costume)" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "SP" : 60,
+      "Skill discount" : "3 and 3 or 5 random but high chance of switch hitter"
+    },
+    "Desperate Struggle - Continue to watch" : {
+      "Affinity" : 8,
+      "GP" : -100,
+      "MNT" : 40,
+      "SP" : 30,
+      "Stamina" : 40
+    },
+    "Desperate Struggle - Offer help (success)" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "Mood" : 1,
+      "SP" : 40,
+      "Skill discount" : "2 gambler"
+    },
+    "Endurance Test - Work together" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "INT" : 60,
+      "SP" : 50,
+      "Skill discount" : "3 not sure if its random but I always get gambler"
+    },
+    "Rapport - Ara's Inspirations" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 30,
+      "Skill discount" : "1 random"
+    },
+    "Rapport - Special dish - accept" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 30,
+      "Skill discount" : "1 random"
+    },
+    "Rapport - Taekwondo Basics" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 30,
+      "Stamina" : 40
+    },
+    "Runner in the wind (costume)" : {
+      "Affinity" : 8,
+      "DEX" : 120,
+      "SP" : 30,
+      "STR" : 60,
+      "Skill discount" : "1 to 3 random"
+    },
+    "Taekwondo Kick (Perfect Victory)" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "GP" : 600,
+      "Mood" : 1,
+      "SP" : 60,
+      "Skill discount" : "1 random"
+    },
+    "The best fighter" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    },
+    "Warp-Up! - Accept" : {
+      "AAffinity" : 8,
+      "DEX" : 60,
+      "MNT" : 60,
+      "SP" : 60,
+      "STR" : 60,
+      "Stamina" : -15
+    },
+    "Warp-Up! - Decline" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "INT" : 60,
+      "SP" : 60,
+      "Stamina" : 50
+    }
+  },
+  "Britra" : {
+    "A Sacrifice (costume) - Find a clever way to refuse" : {
+      "Affinity" : 8,
+      "INT" : 70,
+      "MNT" : 70,
+      "SP" : 70
+    },
+    "A Sacrifice (costume) - Humbly sacrifice yourself" : {
+      "INT" : 60,
+      "MNT" : 60,
+      "SP" : 60,
+      "Skill discount" : "1 and 3 random"
+    },
+    "Dragon Goddess" : {
+      "Affinity" : 8,
+      "GP" : 300,
+      "INT" : 30,
+      "SP" : 30
+    },
+    "Dragon Goddess Nest (Perfect victory)" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "INT" : 30,
+      "Mood" : 1,
+      "SP" : 60,
+      "Skill discount" : 1
+    },
+    "Dragon Goddess Power - Demand something more appropriate" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "INT" : 50,
+      "MNT" : 50,
+      "SP" : 30,
+      "STR" : 440
+    },
+    "Dragon Goddess Power - I can do it" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "Skill discount" : "3 random",
+      "Stamina" : -5,
+      "int" : 60
+    },
+    "Dragon Goddess Wrath" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "INT" : 60,
+      "SP" : 50,
+      "STR" : 50
+    },
+    "Goddess of war" : {
+      "Affinity" : 8,
+      "INT" : 70,
+      "MNT" : 70,
+      "SP" : 70,
+      "Skill discount" : "3 random",
+      "Stamina" : 40
+    },
+    "Sacred Sacrifice (Prepare some food)" : {
+      "Affinity" : 8,
+      "GP" : -200,
+      "SP" : 30,
+      "Skill discount" : "3 random",
+      "Stamina" : 50
+    },
+    "Sacred sacrifice - Take out all the money you have" : {
+      "GP" : 500,
+      "MNT" : 30,
+      "SP" : 30
+    }
+  },
+  "Chael" : {
+    "Chaels Happiness" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "INT" : 50,
+      "MNT" : 60,
+      "SP" : 50
+    },
+    "Chaels Sorrow" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "MNT" : 50,
+      "SP" : 60,
+      "Skill discount" : 3
+    },
+    "For Zenonia (Accept)" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Man From Zenonia" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "Mood" : 2,
+      "SP" : 30
+    },
+    "My Friend Chael (Rapport)" : {
+      "Affinity" : 8,
+      "Mood" : 1,
+      "SP" : 30,
+      "Skill discount" : 1
+    },
+    "New Technique (Perfect Victory)" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "GP" : 600,
+      "SP" : 60,
+      "Skill discount" : 1
+    },
+    "Whats your secret (Hard Mode)" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    },
+    "Whats your secret (Hell Mode) Success" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "SP" : 40,
+      "STR" : 30,
+      "Skill discount" : 3,
+      "Stamina" : -15
+    },
+    "Zenonia Winds (rapport)" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 30,
+      "Stamina" : 40
+    }
+  },
+  "Dragona" : {
+    "Dragon legend" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    },
+    "Dragon's scale - eat it " : {
+      "MNT" : 80,
+      "Mood" : -1,
+      "SP" : 60,
+      "Skill discount" : "3 random",
+      "Stamina" : 70
+    },
+    "Dragon's scale - return it" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "MNT" : 70,
+      "Mood" : 2,
+      "SP" : 700
+    },
+    "Half Dragon" : {
+      "Affinity" : 8,
+      "MNT" : 40,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Hate Training" : {
+      "MNT" : 40,
+      "Mood" : -1,
+      "SP" : 30,
+      "Stamina" : 60
+    },
+    "How to win him over - Mia's signed cd" : {
+      "Affinity" : 13,
+      "MNT" : 90,
+      "Mood" : 1,
+      "SP" : 50,
+      "Skill discount" : "3 random"
+    },
+    "How to win him over - universal encyclopedia of minerals" : {
+      "Affinty" : 8,
+      "INT" : 50,
+      "MNT" : 60,
+      "SP" : 60,
+      "Skill discount" : "3 random"
+    },
+    "Rapport - In hand" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    },
+    "Rapport - Ready set go - Accept" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    },
+    "Rapport- conclusive evidence" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    },
+    "Trouble" : {
+      "INT" : 30,
+      "MNT" : 30,
+      "Skill discount" : 2
+    }
+  },
+  "Eve" : {
+    "A Pretty Girl" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 60
+    },
+    "Confinement (Success)" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "MNT" : 15,
+      "SP" : 50,
+      "Skill discount" : "3 and 3 random"
+    },
+    "Eve's Gift - Stay still out of surprise" : {
+      "Affinity" : 8,
+      "DEX" : 40,
+      "SP" : 30,
+      "Stamina" : 30
+    },
+    "Eve's Gift - Stop eve" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 60
+    },
+    "Eve's Older Sister" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "MNT" : 60,
+      "SP" : 80,
+      "Skill discount" : "2 or 3 supersonic pitch"
+    },
+    "Playing with Eve" : {
+      "Affinity" : 8,
+      "GP" : 400,
+      "INT" : 40,
+      "SP" : 60,
+      "STR" : 40,
+      "Skill discount" : "2 random"
+    },
+    "You're Mean!" : {
+      "DEX" : 30,
+      "SP" : 40,
+      "Stamina" : 40
+    }
+  },
+  "Flamesh" : {
+    "A Secret Devil" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "STR" : 30,
+      "Stamina" : 40
+    },
+    "Its a deal - My favourite bat" : {
+      "Affinity" : 8,
+      "GP" : -200,
+      "INT" : 30,
+      "SP" : 30,
+      "STR" : 40
+    },
+    "Its a deal - Nothing except myself" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "SP" : 30,
+      "STR" : 40,
+      "Stamina" : -10
+    },
+    "Meal Time" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "SP" : 30,
+      "STR" : 60,
+      "Skill discount" : "3 random",
+      "Stamina" : 40
+    },
+    "No Desire" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "STR" : 30,
+      "Stamina" : 50
+    },
+    "Swordsmanship" : {
+      "Affinity" : 8,
+      "SP" : 40,
+      "STR" : 50,
+      "Skill discount" : "1 or 3 random"
+    },
+    "Taking Flight" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "MNT" : 40,
+      "SP" : 30,
+      "Skill discount" : "1 or 3 random",
+      "Stamina" : 50
+    }
+  },
+  "Helga" : {
+    "Alain Strongbeard" : {
+      "Affinity" : 8,
+      "GP" : 300,
+      "MNT" : 20,
+      "SP" : 30,
+      "Stamina" : 40
+    },
+    "Broken HOrn" : {
+      "Affinity" : 8,
+      "GP" : 300,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Fearsome Vikings" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "Rognhild in Danger!" : {
+      "GP" : 600,
+      "SP" : 30,
+      "Stamina" : 20
+    },
+    "Santa Claws? (Costume)" : {
+      "Affinity" : 8,
+      "DEX" : 40,
+      "GP" : 1500,
+      "SP" : 60
+    },
+    "Viking Tech Shield (PLUS)" : {
+      "Affinity" : 8,
+      "GP" : 1200,
+      "STR" : 50,
+      "Skill discount" : "2 or 3 power batter"
+    },
+    "Your thoughts? - You feared for your life" : {
+      "DEX" : 60,
+      "INT" : 60,
+      "MNT" : 60,
+      "SP" : 40
+    },
+    "Your thoughts? - You weren't scared" : {
+      "Affinity" : 8,
+      "GP" : 1200,
+      "INT" : 30,
+      "Mood" : 1,
+      "STR" : 20,
+      "Stamina" : 70
+    },
+    "Yummy Yuletide (Costume)" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "GP" : 1000,
+      "SP" : 60,
+      "STR" : 40
+    }
+  },
+  "Ines" : {
+    "Powerful Corporation" : {
+      "Affinity" : 13,
+      "MNT" : 90,
+      "Skill discount" : 3
+    },
+    "Star CEO" : {
+      "Affinity" : 8,
+      "GP" : 300,
+      "INT" : 30,
+      "Mood" : -1,
+      "SP" : 30
+    },
+    "Two Faced" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "STR" : 30,
+      "Skill discount" : "2 random but high chance of HR king blessing"
+    },
+    "Unknown frontier" : {
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 30,
+      "Stamina" : 40
+    },
+    "Valued Judgement (PLUS)" : {
+      "Affinity" : 8,
+      "MNT" : 60,
+      "Mood" : 1,
+      "STR" : 90,
+      "Skill discount" : "2 or 3 - power batter or random"
+    }
+  },
+  "Kai" : {
+    "Back to seclusion" : {
+      "MNT" : 30,
+      "SP" : 40,
+      "STR" : 40
+    },
+    "Justice will Prevail" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Wulin" : {
+      "Affinity" : 8,
+      "INT" : 80,
+      "SP" : 60,
+      "Skill discount" : "3 random",
+      "Stamina" : 40
+    }
+  },
+  "King Tiger" : {
+    "A Desire to learn" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "A Great Teacher" : {
+      "Affinity" : 8,
+      "MNT" : 40,
+      "Mood" : -1,
+      "SP" : 40,
+      "STR" : 40
+    },
+    "Burden of the throne (PLUS)" : {
+      "SP" : 60,
+      "STR" : 60,
+      "Skill discount" : "3 and 3 or 5 random but high chance of HR king & catcher skills"
+    },
+    "Earnest expectations" : {
+      "Affinity" : 8,
+      "MNT" : 50,
+      "SKill discount" : "3 random or framing",
+      "SP" : 60,
+      "STR" : 60
+    },
+    "Known as the king" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "Mood" : 1,
+      "SP" : 30,
+      "STR" : 30
+    }
+  },
+  "Kunio" : {
+    "Challenges Welcome - Succeed all" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "MNT" : 60,
+      "SP" : 60,
+      "STR" : 60,
+      "Skill discount" : "2 maximum effort"
+    },
+    "Challenges welcome - failure" : {
+      "Affinity" : 8,
+      "SP" : 30
+    },
+    "Dodgeball ace - Ask for something else to do" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "MNT" : 60,
+      "SP" : 60,
+      "Stamina" : 50
+    },
+    "Dodgeball ace - Offer to help" : {
+      "Affinity" : 8,
+      "DEX" : 40,
+      "MNT" : 40,
+      "SP" : 60,
+      "STR" : 40,
+      "Skill discount" : "1 to 3 random"
+    },
+    "Hot-blooded kunio" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "Mood" : 1,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Kunio Defeated" : {
+      "INT" : 40,
+      "MNT" : 40,
+      "SP" : 30,
+      "STR" : 15
+    },
+    "Kunio the flirt (Costume)" : {
+      "Affinity" : 8,
+      "SP" : 40,
+      "STR" : 120,
+      "Skill discount" : "3 and 3 random"
+    },
+    "Rapport - Fiery Passion" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Rapport - Labor of Love (Accept)" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Rapport - No Giving Up" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Source of Anger" : {
+      "Affinity" : 8,
+      "MNT" : 60,
+      "SP" : 30
+    },
+    "Tech burger (Costume(" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "SP" : 60,
+      "STR" : 100,
+      "Stamina" : 50
+    },
+    "Weakness" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "MNT" : 60,
+      "SP" : 60,
+      "STR" : 20,
+      "Skill discount" : "1 to 3 random"
+    }
+  },
+  "Leon" : {
+    "Battle League" : {
+      "DEX" : 30,
+      "Mood" : -1,
+      "SP" : 30,
+      "STR" : 40,
+      "Skill discount" : 1
+    },
+    "Becoming a legend - complete victory for king tiger" : {
+      "Affinity" : 8,
+      "MNT" : 100,
+      "SP" : 120
+    },
+    "Becoming a legend - i dont think so" : {
+      "Affinity" : 8,
+      "SP" : 60,
+      "STR" : 60,
+      "Skill discount" : "3 and 3 or 5 random"
+    },
+    "Father and daughter" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "Mood" : 1,
+      "SP" : 40,
+      "STR" : 30
+    },
+    "Lion's trial" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30,
+      "Stamina" : -15
+    },
+    "Ruler of terror" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Talent test (Perfect victory)" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "SP" : 60,
+      "STR" : 30,
+      "Skill discount" : "3 random"
+    }
+  },
+  "Leonie" : {
+    "Best Recipe" : {
+      "DEX" : 40,
+      "Mood" : -1,
+      "SP" : 40,
+      "STR" : 40
+    },
+    "Leonie's Menu" : {
+      "MNT" : 15,
+      "SP" : 30,
+      "STR" : 30,
+      "Stamina" : 40
+    },
+    "Meat song now live (costume)" : {
+      "Affinity" : 8,
+      "GP" : 400,
+      "MNT" : 60,
+      "SP" : 60,
+      "STR" : 60,
+      "Skill discount" : 1
+    },
+    "Mind games - dodge left" : {
+      "MNT" : 60,
+      "SP" : 50,
+      "STR" : 60,
+      "Skill discount" : "3 random"
+    },
+    "Mind games - dodge right" : {
+      "Affinity" : 8,
+      "MNT" : 60,
+      "SP" : 50,
+      "STR" : 60
+    },
+    "Monster hunter - left or right same effect" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Special Meat (PLUS)" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "SP" : 60,
+      "STR" : 60,
+      "Stamina" : 60
+    },
+    "The Weakness - go left" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "Skill discount" : "1 to 3 random",
+      "Stamina" : 40
+    },
+    "The weakness - go right" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    }
+  },
+  "Lilith" : {
+    "A Whispering Trophy - Resist" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "GP" : 400,
+      "INT" : 60,
+      "SP" : 60
+    },
+    "A Whispering Trophy - Touch it" : {
+      "Affinity" : 8,
+      "MNT" : 60,
+      "SP" : 60,
+      "Stamina" : 60
+    },
+    "Becoming an Ace" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "MNT" : 60,
+      "SP" : 60,
+      "STR" : 60,
+      "Stamina" : -15
+    },
+    "Enough!" : {
+      "DEX" : 15,
+      "INT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Fun stuff" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "Skill discount" : "1 or 3 random"
+    },
+    "Help!" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Rapport - Deny your conscience" : {
+      "MNT" : 30,
+      "SP" : 30,
+      "Skill discount" : "1 random"
+    },
+    "Rapport - Follow your conscience" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "STR" : 30,
+      "Stamina" : 40
+    },
+    "Rapport - Matter of conscience (accept)" : {
+      "Affinity" : 8,
+      "GP" : 300
+    },
+    "Rapport - Victory" : {
+      "Affinity" : 8,
+      "GP" : 200,
+      "MNT" : 50,
+      "SP" : 20
+    },
+    "Showing Mercy" : {
+      "Affinity" : 8,
+      "GP" : -300,
+      "MNT" : 30,
+      "SP" : 30,
+      "Skill discount" : "3 screwball"
+    }
+  },
+  "Luna" : {
+    "A Note (PLUS)" : {
+      "Affinity" : 8,
+      "DEX" : 40,
+      "INT" : 50,
+      "MNT" : 40,
+      "SP" : 40,
+      "skill discount" : "3 resolve or random"
+    },
+    "Difficult maid life" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    },
+    "Lodge duties - find easiest way and take break" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 30,
+      "Stamina" : 40
+    },
+    "Lodge duties - finish the job properly" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "Rain forecast - find the easiest way out and take break" : {
+      "Affinity" : 8,
+      "GP" : 300,
+      "INT" : 40,
+      "MNT" : 30,
+      "SP" : 30,
+      "Skill discount" : "3 random",
+      "Stamina" : 40
+    },
+    "Rain forecast - finish the job properly and sincerely" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "Sudden progress" : {
+      "Affinty" : 8,
+      "INT" : 40,
+      "Mood" : -1,
+      "SP" : 40,
+      "Stamina" : 50
+    },
+    "Thank you so much" : {
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 30,
+      "Stamina" : 20
+    }
+  },
+  "Luther" : {
+    "A man in uniform" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Basic Training (PLUS)" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "INT" : 40,
+      "SP" : 60,
+      "STR" : 60
+    },
+    "Evacuation Training - Accept Intimidation" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Evacuation training - Ask him to train" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Luther's Past" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Rapport - A Thankful mind" : {
+      "Affinity" : 8,
+      "Mood" : 1,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Rapport - Luthers Identity" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "STR" : 30,
+      "Skill discount" : "1 random"
+    },
+    "Rapport - Mind at Ease - Accept" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "World of Peace (PLUS)" : {
+      "Affinity" : 8,
+      "SP" : 50,
+      "STR" : 80,
+      "Skill discount" : 3,
+      "Stamina" : 40
+    }
+  },
+  "Michaella" : {
+    "A long trip" : {
+      "MNT" : 20,
+      "SP" : 40,
+      "STR" : 15
+    },
+    "Growing Pains" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "INT" : 60,
+      "SP" : 60,
+      "Stamina" : 50
+    },
+    "Leaving the Group" : {
+      "INT" : 60,
+      "SP" : 30,
+      "Skill discount" : 1
+    },
+    "Lonely Monique" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "SP" : 50,
+      "Skill discount" : 3
+    },
+    "Rachel's Gone" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "INT" : 30,
+      "SP" : 30
+    },
+    "The top idol" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    },
+    "Top idol concern (PLUS) - strike while iron is hot" : {
+      "Affinity" : 8,
+      "GP" : 400,
+      "INT" : 60,
+      "SP" : 60,
+      "STR" : 60
+    },
+    "Top idol concern (PLUS) - talk to the agency" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "MNT" : 60,
+      "SP" : 60,
+      "Stamina" : 50
+    }
+  },
+  "Nina" : {
+    "A Reason for Tears" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "MNT" : 50,
+      "SP" : 60,
+      "Skill discount" : "3 random"
+    },
+    "Happines and Fury (Success)" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "SP" : 50,
+      "STR" : 50
+    },
+    "Love and Affection" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "Mood" : 1,
+      "SP" : 50,
+      "STR" : 50
+    },
+    "Nina" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Nina Doesn't Know" : {
+      "INT" : 30,
+      "SP" : 60,
+      "Stamina" : 20
+    },
+    "Power hitter is here" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "Mood" : 1,
+      "Skill discount" : "2 or 3 power batter"
+    }
+  },
+  "Rachel" : {
+    "An Elegant Girl" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    },
+    "Going Solo" : {
+      "DEX" : 60,
+      "SP" : 30,
+      "Stamina" : 20
+    },
+    "How's my dancing - Its amazing" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "SP" : 50,
+      "STR" : 60,
+      "Stamina" : 50
+    },
+    "How's my dancing - Its amazing but classical" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "GP" : 400,
+      "MNT" : 60,
+      "SP" : 60
+    },
+    "How's my dancing - Its amazing but pop" : {
+      "Affinity" : 8,
+      "SP" : 120,
+      "STR" : 60,
+      "Skill discount" : 2
+    },
+    "Rachel in Trouble (costume)" : {
+      "Affinity" : 8,
+      "DEX" : 80,
+      "STR" : 80,
+      "Skill Discount" : 1
+    },
+    "Resourceful Rachel (costume)" : {
+      "Affinity" : 8,
+      "MNT" : 50,
+      "STR" : 100,
+      "Skill Discount" : "1 and 2 - random"
+    },
+    "Secret Practice" : {
+      "Affinity" : 8,
+      "Dex" : 50,
+      "SP" : 50,
+      "Stamina" : 40
+    },
+    "Superb Performance" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "SP" : 60,
+      "Skill Discount" : 3,
+      "Stamina" : 40
+    },
+    "Troubled angel - Ask whats bothering" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 30,
+      "Skill discount" : "3 random"
+    },
+    "Troubled angel - send her to lodge" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    }
+  },
+  "Regret" : {
+    "A Blonde Stranger" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Getting Hungry - Lets look for food" : {
+      "Affinity" : 8,
+      "SP" : 50,
+      "STR" : 60,
+      "Skill discount" : 3,
+      "Stamina" : 70
+    },
+    "Getting hungry - tell him to just tough it out" : {
+      "MNT" : 40,
+      "SP" : 50,
+      "STR" : 60,
+      "Skill discount" : "3 and 3 random",
+      "Stamina" : -10
+    },
+    "Level Up!" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "STR" : 30,
+      "Skill discount" : 1
+    },
+    "Regret's Baseball" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "SP" : 30,
+      "STR" : 30
+    },
+    "Unexpected Talent (PLUS)" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "SP" : 60,
+      "STR" : 60,
+      "Skill discount" : 3
+    }
+  },
+  "Rowena" : {
+    "Memories of that day" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "INT" : 30,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "Mercenaries and Wars" : {
+      "DEX" : 60,
+      "MNT" : 150,
+      "SP" : 30
+    },
+    "Mercenary Rowena" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "INT" : 30,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "Special training (Accept)" : {
+      "Affinity" : 8,
+      "DEX" : 120,
+      "GP" : -300,
+      "SP" : 30,
+      "STR" : 40,
+      "Skill discount" : "3 accuracy control"
+    },
+    "That name (PLUS)" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "INT" : 40,
+      "SP" : 60,
+      "Stamina" : 70
+    },
+    "The Busters" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "INT" : 30,
+      "SP" : 30
+    }
+  },
+  "Roy" : {
+    "Crazy Heirlan" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "Stamina" : 30
+    },
+    "Grotesque Grin - Lift up the corners of your mouth like this (success)" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "Skill discount" : "1 and 1 random"
+    },
+    "Grotesque Grin - Never mind its hopeless" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "Skill discount" : "2 random",
+      "Stamina" : 30
+    },
+    "Rapport - Baseball club" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "SP" : 30,
+      "Skill discount" : "1 random"
+    },
+    "Rapport - Rivalry - Accept" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "MNT" : 30,
+      "Mood" : 1,
+      "SP" : 20
+    },
+    "Rapport - Time to duel (Perfect victory)" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "MNT" : 30,
+      "SP" : 60
+    },
+    "Righteous Heirlan" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "INT" : 40,
+      "MNT" : 50,
+      "SP" : 40,
+      "Skill discount" : 2
+    },
+    "Tennis Player" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "MNT" : 40,
+      "Mood" : 1
+    },
+    "Unexpected Aspect" : {
+      "Affinity" : 8,
+      "DEX" : 40,
+      "INT" : 40,
+      "MNT" : 40,
+      "SP" : 40,
+      "STR" : 40,
+      "Skill discount" : "2 or 3 (bigbang)"
+    }
+  },
+  "Seiryu" : {
+    "Magical Spheres" : {
+      "Affinity" : 8,
+      "MNT" : 60,
+      "SP" : 50,
+      "Skill discount" : "3 random",
+      "Stamina" : 70
+    },
+    "Seiryu at Age 7" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 30,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "Sound Body (Perfect Victory)" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "MNT" : 30,
+      "SP" : 60,
+      "STR" : 30
+    },
+    "Sound Mind" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "MNT" : 60,
+      "Skill discount" : "3 random",
+      "Stamina" : 70
+    }
+  },
+  "Sohyang" : {
+    "A Small gift - decline" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "MNT" : 100,
+      "Mood" : 1,
+      "SP" : 60
+    },
+    "Armor care (costume) - shopping mall" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "INT" : 60,
+      "Mood" : 1,
+      "SP" : 60,
+      "Stamina" : 60
+    },
+    "Armor care (costume) - training field" : {
+      "Affinity" : 8,
+      "MNT" : 60,
+      "SP" : 70,
+      "STR" : 60,
+      "Skill discount" : "3 random"
+    },
+    "Back to nature" : {
+      "INT" : 30,
+      "MNT" : 40,
+      "Mood" : -1,
+      "SP" : 30,
+      "Stamina" : 40
+    },
+    "Close people" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "MNT" : 60,
+      "SP" : 50,
+      "Skill discount" : "3 random"
+    },
+    "Elegant Swordsman" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "MNT" : 40,
+      "Mood" : 1,
+      "SP" : 30,
+      "Stamina" : 30
+    },
+    "Knight's Armor (Costume)" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "GP" : 300,
+      "MNT" : 60,
+      "SP" : 60,
+      "STR" : 60
+    },
+    "Not on Hand - Ask her" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "Mood" : 1,
+      "SP" : 30,
+      "Skill discount" : "1 or 3 random"
+    },
+    "Not on Hand - Pretend ddnt see her" : {
+      "DEX" : 40,
+      "Mood" : 1,
+      "SP" : 30,
+      "Stamina" : 40
+    },
+    "Not on Hand - Take it" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "MNT" : 60,
+      "SP" : 60,
+      "Stamina" : 50
+    },
+    "Publicity outcome" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "Rapport - First Students - Accept" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "Stamina" : 40
+    }
+  },
+  "Tsubaki" : {
+    "A Real vacation (Costume)" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "MNT" : 60,
+      "SP" : 60,
+      "Skill discount" : "1 random",
+      "Stamina" : 50
+    },
+    "Duel for fun (Perfect victory)" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "GP" : 600,
+      "Stamina" : 40
+    },
+    "Duel for fun - Decline" : {
+      "Affinity" : -8,
+      "Skill discount" : 1,
+      "Stamina" : 40
+    },
+    "Hooligan Sighted" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "INT" : 60,
+      "SP" : 60,
+      "Stamina" : 50
+    },
+    "Rapport - Romance you say?" : {
+      "Affinity" : 8,
+      "DEX" : 120,
+      "SP" : 40,
+      "Skill discount" : 2
+    },
+    "Rapport - Rough relationship" : {
+      "Affinity" : 8,
+      "DEX" : 160,
+      "SP" : 50,
+      "Stamina" : -14
+    },
+    "Rapport - Sink or swim duel - Accept - perfect victory" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "GP" : 600,
+      "INT" : 30,
+      "SP" : 60
+    },
+    "The Oni Mask" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "GP" : 400,
+      "INT" : 60,
+      "SP" : 60
+    },
+    "Tsubaki" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    },
+    "Tsubaki's Specialty - Flame magic" : {
+      "DEX" : 30,
+      "SP" : 30,
+      "Stamina" : 70
+    },
+    "Tsubaki's Specialty - Swordsmanship" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "SP" : 30
+    },
+    "Tsubaki's Vacation (costume)" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "INT" : 60,
+      "MNT" : 20,
+      "SP" : 60,
+      "STR" : 50
+    }
+  },
+  "Violet" : {
+    "Elixir of love - drink it" : {
+      "MNT" : 60,
+      "Mood" : 1,
+      "SP" : 50,
+      "STR" : 60,
+      "Skill discount" : "3 random",
+      "Stamina" : -10
+    },
+    "Queen's table - a place famous for garlic dishes" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "Sweet seduction - accept" : {
+      "Affinity" : 8,
+      "MNT" : 40,
+      "Mood" : -1,
+      "SP" : 40,
+      "Skill discount" : "3 random"
+    },
+    "The immortal queen" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "MNT" : 30,
+      "SP" : 30
+    }
+  }
+}
