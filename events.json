@@ -124,6 +124,64 @@
       "Stamina" : 50
     }
   },
+  "Base Angel" : {
+    "Angel's blessing" : {
+      "INT" : 20,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Appropriate Decision - Join specky" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "Stamina" : 30
+    },
+    "Appropriate Decision - Keep practicing" : {
+      "MNT" : 20,
+      "SP" : 20,
+      "Skill discount" : 1
+    },
+    "Don't catch a cold! (costume)" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "MNT" : 50,
+      "Mood" : 1,
+      "SP" : 50,
+      "Stamina" : 40
+    },
+    "Gaze of an Angel" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "MNT" : 50,
+      "SP" : 50
+    },
+    "Ice Queen (Costume)" : {
+      "Affinity" : 8,
+      "GP" : 500,
+      "MNT" : 50,
+      "SP" : 50,
+      "Skill discount" : "1 or 3"
+    },
+    "Judge of Light" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "The Golden Trumphet" : {
+      "Affinity" : 8,
+      "MNT" : 40,
+      "SP" : 40,
+      "Skill discount" : 3,
+      "Stamina" : 40
+    },
+    "Wings of an angel" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "Mood" : 1,
+      "SP" : 20
+    }
+  },
   "Base Hero" : {
     "Odd training - switch to horizontal swing" : {
       "INT" : 20,
@@ -161,6 +219,82 @@
       "MNT" : 20,
       "SP" : 20,
       "Stamina" : 30
+    }
+  },
+  "Boomiger" : {
+    "Boomiger is Here!" : {
+      "GP" : 200,
+      "INT" : 30,
+      "Mood" : 1,
+      "SP" : 20
+    },
+    "Crystal Coating" : {
+      "Affinity" : 10,
+      "GP" : -200,
+      "INT" : 30,
+      "SP" : 30
+    },
+    "Hearing your voice" : {
+      "Affinity" : 8,
+      "INT" : 15,
+      "SP" : 30,
+      "Skill discount" : 1
+    },
+    "Hologram Training - Basic training" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "INT" : 50,
+      "MNT" : 50
+    },
+    "Hologram Training - Realistic Training" : {
+      "Affinity" : 8,
+      "SP" : 50,
+      "STR" : 50,
+      "Skill discount" : 3
+    },
+    "It can transform?!" : {
+      "INT" : 60,
+      "MNT" : 40,
+      "Skill discount" : 3
+    },
+    "New Features" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "INT" : 20,
+      "SP" : 20
+    }
+  },
+  "Bora" : {
+    "Bike Maniac (PLUS) - Tell her you need to train" : {
+      "Affinity" : 8,
+      "SP" : 50,
+      "STR" : 50,
+      "Skill discount" : 3
+    },
+    "Bora's Past (PLUS)" : {
+      "Affinity" : 8,
+      "MNT" : 40,
+      "Mood" : 1,
+      "SP" : 40,
+      "STR" : 50
+    },
+    "Routine Checkup - Decline" : {
+      "Affinity" : 8,
+      "SP" : 20,
+      "STR" : 20,
+      "Stamina" : 30
+    },
+    "Something's Wrong" : {
+      "Affinity" : 8,
+      "SP" : 20,
+      "STR" : 20,
+      "Stamina" : 30
+    },
+    "Space Hunter" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "SP" : 20,
+      "STR" : 20
     }
   },
   "Britra" : {
@@ -231,6 +365,45 @@
       "GP" : 500,
       "MNT" : 30,
       "SP" : 30
+    }
+  },
+  "Captain Jack" : {
+    "A Fight?" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "GP" : 150,
+      "SP" : 30
+    },
+    "A Pirate's End" : {
+      "GP" : -200,
+      "SP" : 60,
+      "Skill discount" : 3
+    },
+    "Hammurabit (Perfect Victory)" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "GP" : 400,
+      "SP" : 60,
+      "Skill discount" : 1
+    },
+    "Hungry Captain" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "SP" : 20,
+      "Stamina" : 30
+    },
+    "Pirate Traditions" : {
+      "Affinity" : 8,
+      "GP" : 200,
+      "SP" : 20,
+      "Stamina" : 30
+    },
+    "Weakness Spotted" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "Mood" : -1,
+      "SP" : 50,
+      "Skill discount" : 3
     }
   },
   "Chael" : {
@@ -557,6 +730,52 @@
       "Skill discount" : 3
     }
   },
+  "Guy-E" : {
+    "Danger!!" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Guard" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Guy-E's Routine - ask him" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "Mood" : 1,
+      "SP" : 20
+    },
+    "Guy-E's Routine - dont ask him, it might be rude" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "SP" : 20,
+      "Stamina" : 30
+    },
+    "Injured guy-e" : {
+      "SP" : 20,
+      "STR" : 30,
+      "Stamina" : 30
+    },
+    "Waist-hip training - diligently pick up trash" : {
+      "MNT" : 30,
+      "SP" : 20
+    },
+    "Waist-hip training - pick up trash without much effort" : {
+      "SP" : 60,
+      "Skill discount" : 3,
+      "Stamina" : 60
+    },
+    "Wait what now?" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "STR" : 80,
+      "Skill discount" : 2
+    }
+  },
   "Hannibal" : {
     "Mightiest Mercenary" : {
       "Affinity" : 8,
@@ -669,6 +888,101 @@
       "STR" : 40
     }
   },
+  "Hellfire" : {
+    "Flaming Man" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Human Weakness" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "Mood" : 1,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Is that All (do as you're instructed without complaining x3)" : {
+      "Affinity" : 8,
+      "Mood" : -1,
+      "SP" : 20,
+      "Stamina" : -15
+    },
+    "Is that All - get mad at him" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Never Settle!" : {
+      "Affinity" : 8,
+      "MNT" : 50,
+      "SKill discount" : 3,
+      "SP" : 50
+    },
+    "Provoke - It sreally seems like its just for show" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Provoke - Looks pretty inconvenient for everyday life" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Rapport - Degree of Desire - Accept" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "Mood" : 1,
+      "SP" : 20
+    },
+    "Rapport - Energy of Fur" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "Skill discount" : 2
+    },
+    "Rapport - Fury Blown Up" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "Mood" : -1,
+      "SP" : 20,
+      "STR" : 30
+    },
+    "Wrath" : {
+      "Affinity" : 8,
+      "MNT" : 50,
+      "SP" : 50,
+      "Skill discount" : 3
+    }
+  },
+  "Hunter G" : {
+    "Bounty hunter" : {
+      "DEX" : 20,
+      "GP" : 200,
+      "SP" : 20
+    },
+    "Hunter's Lesson" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "INT" : 20,
+      "SP" : 20
+    },
+    "Hunter's Training (PLUS) - Chase" : {
+      "Affinity" : 8,
+      "MNT" : 40,
+      "SP" : 50,
+      "STR" : 60
+    },
+    "Hunter's Training (PLUS) - Markmanship" : {
+      "Affinity" : 8,
+      "DEX" : 40,
+      "INT" : 60,
+      "SP" : 50
+    }
+  },
   "Ines" : {
     "Powerful Corporation" : {
       "Affinity" : 13,
@@ -754,6 +1068,62 @@
       "Mood" : 1,
       "SP" : 30,
       "STR" : 30
+    }
+  },
+  "Kryzer" : {
+    "Death Metal - Give it a try - its awesome" : {
+      "Affinity" : 8,
+      "Mood" : 1,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Death Metal - its noisy" : {
+      "Affinity" : -5,
+      "INT" : 30,
+      "MNT" : 30,
+      "SP" : 20
+    },
+    "Electric Guitar" : {
+      "Affinity" : 8,
+      "Mood" : "1Stamina",
+      "SP" : 40,
+      "STR" : 40,
+      "Skill discount" : "2 tenacy or random",
+      "Stamina" : 30
+    },
+    "Goblins" : {
+      "Affinity" : 8,
+      "MNT" : 50,
+      "Mood" : 1,
+      "SP" : 50,
+      "STR" : 50
+    },
+    "Guitarist" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "More Band Members" : {
+      "MNT" : 30,
+      "Mood" : -1,
+      "SP" : 30,
+      "STR" : 40
+    },
+    "Rhythm training - call it nothing but bunch of nonsense" : {
+      "MNT" : 30,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Rhythm training - give it a try (failure)" : {
+      "MNT" : 15,
+      "STR" : 15,
+      "Stamina" : -10
+    },
+    "Rhythm training - give it a try (success)" : {
+      "MNT" : 15,
+      "STR" : 15,
+      "Stamina" : 10
     }
   },
   "Kunio" : {
@@ -1028,6 +1398,43 @@
       "STR" : 30
     }
   },
+  "Liew" : {
+    "A Magical bat - wow sounds great!" : {
+      "Affinity" : 8,
+      "GP" : 400,
+      "INT" : 60,
+      "SP" : 60
+    },
+    "A Proud Inventor!" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "A magical bat - thats ridiculous" : {
+      "Affinity" : -5,
+      "INT" : 60,
+      "MNT" : 60,
+      "SP" : 60
+    },
+    "Busy as a bee!" : {
+      "INT" : 30,
+      "MNT" : 30,
+      "Stamina" : 30
+    },
+    "Liew from Noble" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "SP" : 20,
+      "Skill discount" : 1
+    },
+    "Where is she?" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "MNT" : 40,
+      "SP" : 50
+    }
+  },
   "Lilith" : {
     "A Whispering Trophy - Resist" : {
       "Affinity" : 8,
@@ -1095,6 +1502,13 @@
       "MNT" : 30,
       "SP" : 30,
       "Skill discount" : "3 screwball"
+    }
+  },
+  "Lucia" : {
+    "Want Shome?" : {
+      "SP" : 50,
+      "Skill discount" : 2,
+      "Stamina" : 70
     }
   },
   "Lucy" : {
@@ -1237,6 +1651,57 @@
       "Stamina" : 40
     }
   },
+  "Medica" : {
+    "An Old Uniform (costume)" : {
+      "GP" : 600,
+      "SP" : 60,
+      "STR" : 30,
+      "Stamina" : 40
+    },
+    "Angel's Arrival" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "Mood" : 1,
+      "SP" : 20
+    },
+    "Don't  get hurt" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "SP" : 50,
+      "Stamina" : 60
+    },
+    "Elite Player Medica" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "Mood" : 1,
+      "SP" : 20,
+      "Stamina" : 30
+    },
+    "Her Support - Hit the showers and rest" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "SP" : 50,
+      "Stamina" : 60
+    },
+    "Her Support - Practice some more" : {
+      "Affinity" : 8,
+      "Mood" : 1,
+      "SP" : 50,
+      "Skill discount" : "3 and 3"
+    },
+    "Love and Passion (PLUS) - Decline" : {
+      "Affinity" : 8,
+      "MNT" : 50,
+      "SP" : 50,
+      "Skill discount" : 3
+    },
+    "Love and Passion (PLUS) - Show her" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "SP" : 50,
+      "Stamina" : 60
+    }
+  },
   "Mei Mei" : {
     "A Demon Too?" : {
       "Affinity" : 8,
@@ -1275,6 +1740,46 @@
       "MNT" : 60,
       "SP" : 50,
       "Skill discount" : 3
+    }
+  },
+  "Mia" : {
+    "Childhood friends" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Machine Challenge - Avoid duel" : {
+      "DEX" : 20,
+      "SP" : 15,
+      "Stamina" : 70
+    },
+    "Machine Challenge - Duel (failure)" : {
+      "Mood" : -1,
+      "SP" : 40
+    },
+    "Machine Challenge - Duel (success)" : {
+      "Affinity" : 8,
+      "GP" : 300,
+      "INT" : 20,
+      "Mood" : 1,
+      "SP" : 40,
+      "Skill discount" : 3
+    },
+    "Throw it With Power" : {
+      "INT" : 100,
+      "SP" : 50
+    },
+    "Unexpected Talent" : {
+      "GP" : 500,
+      "INT" : 50,
+      "SP" : 50
+    },
+    "You vs Mia! (PERFECT VICTORY)" : {
+      "GP" : 400,
+      "INT" : 20,
+      "SP" : 40,
+      "Skill discount" : 2
     }
   },
   "Michaella" : {
@@ -1326,6 +1831,65 @@
       "MNT" : 60,
       "SP" : 60,
       "Stamina" : 50
+    }
+  },
+  "Miho" : {
+    "Dazzling Fur - Tell her she looks young" : {
+      "Affinity" : 18,
+      "MNT" : 50,
+      "SP" : 60
+    },
+    "Nice to meet you" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "MNT" : 20,
+      "Mood" : 1,
+      "SP" : 20
+    },
+    "Three tails" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "SP" : 20,
+      "Skill discount" : 1
+    }
+  },
+  "Misako" : {
+    "A Boring Day" : {
+      "GP" : 200,
+      "SP" : 20,
+      "Stamina" : 20
+    },
+    "Barriers" : {
+      "Affinity" : 8,
+      "SP" : 20,
+      "STR" : 20,
+      "Stamina" : 30
+    },
+    "Girl Power" : {
+      "Affinity" : 8,
+      "GP" : 300,
+      "SP" : 50,
+      "Skill discount" : 2
+    },
+    "Hidden Charm" : {
+      "Affinity" : 8,
+      "GP" : 400,
+      "SP" : 60,
+      "STR" : 40,
+      "Stamina" : 40
+    },
+    "Scary HS Girl" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Stress Relief (Perfect Victory)" : {
+      "Affinity" : 8,
+      "GP" : 400,
+      "SP" : 40,
+      "STR" : 20,
+      "Skill discount" : 1
     }
   },
   "Monique" : {
@@ -1455,6 +2019,44 @@
       "DEX" : 60,
       "MNT" : 60,
       "SP" : 40
+    }
+  },
+  "Onestone" : {
+    "Call Onestone" : {
+      "Affinity" : 8,
+      "Mood" : 1,
+      "SP" : 20,
+      "Stamina" : 30
+    },
+    "Favouritism (PLUS)" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "Mood" : -1,
+      "SP" : 60,
+      "STR" : 60,
+      "Skill discount" : 2
+    },
+    "Food" : {
+      "Affinity" : 18,
+      "MNT" : 10,
+      "STR" : 50,
+      "Skill discount" : 2
+    },
+    "Hunger" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "STR" : 20
+    },
+    "Is this a Rock?" : {
+      "Affinity" : 8,
+      "MTN" : 20,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Nature's Tragedy" : {
+      "GP" : 150,
+      "SP" : 20,
+      "STR" : 40
     }
   },
   "Pi" : {
@@ -1733,6 +2335,37 @@
       "Skill discount" : 3
     }
   },
+  "Rose" : {
+    "A Rude Girl" : {
+      "GP" : 400,
+      "Mood" : -1,
+      "SP" : 30,
+      "STR" : 20
+    },
+    "Explain yourself" : {
+      "GP" : 600,
+      "Mood" : -1,
+      "SP" : 60,
+      "STR" : 60
+    },
+    "How Old are you? - Be rude to her" : {
+      "GP" : 300,
+      "Mood" : -1,
+      "SP" : 20,
+      "Skill discount" : 2
+    },
+    "Special batting - tell rose she is different from others" : {
+      "Affinity" : -5,
+      "SP" : 40,
+      "STR" : 30,
+      "Stamina" : 30
+    },
+    "Training for Whom?" : {
+      "Affinity" : -10,
+      "GP" : 700,
+      "SP" : 20
+    }
+  },
   "Rowena" : {
     "Memories of that day" : {
       "Affinity" : 8,
@@ -1835,6 +2468,54 @@
       "SP" : 40,
       "STR" : 40,
       "Skill discount" : "2 or 3 (bigbang)"
+    }
+  },
+  "Scumbag Joe" : {
+    "Analyzing Opponents" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "MNT" : 20,
+      "Mood" : 1,
+      "SP" : 20
+    },
+    "Joe's Inner eye" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "MNT" : 50,
+      "SP" : 50
+    },
+    "Mental Concentration" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "MNT" : 100,
+      "Mood" : 1
+    },
+    "No more Please!" : {
+      "DEX" : 40,
+      "SP" : 20,
+      "Stamina" : 20
+    },
+    "Stormy Joe - Demonstrate your skills (failure)" : {
+      "MNT" : 30,
+      "Stamina" : -10
+    },
+    "Stormy Joe - Demonstrate your skills (success)" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "SP" : 20,
+      "Skill discount" : 2
+    },
+    "Stormy Joe - Laugh at him" : {
+      "Affinity" : -5,
+      "MNT" : 20,
+      "SP" : 20,
+      "Stamina" : 40
+    },
+    "Unqualified?" : {
+      "DEX" : 40,
+      "MNT" : 30,
+      "Mood" : -1,
+      "SP" : 30
     }
   },
   "Seiryu" : {
@@ -1950,6 +2631,45 @@
       "Affinity" : 8,
       "SP" : 30,
       "Stamina" : 40
+    }
+  },
+  "Soldia" : {
+    "A Dynamic Girl" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "A Suspect?!" : {
+      "SP" : 40,
+      "STR" : 15,
+      "Skill discount" : 1
+    },
+    "Leads to the bomb" : {
+      "Affinity" : 8,
+      "GP" : -200,
+      "STR" : 40,
+      "Skill discount" : "1 or 3"
+    },
+    "Mission Impossible - Defuse bomb (success)" : {
+      "Affinity" : 13,
+      "SP" : 30,
+      "STR" : 30,
+      "Skill discount" : "2 - high chance of man of steel",
+      "Stamina" : 20
+    },
+    "Pitching Practice? (PLUS)" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "SP" : 40,
+      "STR" : 60
+    },
+    "You're the bomb (PLUS)" : {
+      "Affinity" : 13,
+      "DEX" : 40,
+      "Mood" : 1,
+      "SP" : 40,
+      "STR" : 50
     }
   },
   "Sophie" : {
@@ -2157,6 +2877,48 @@
       "SP" : 60
     }
   },
+  "Velour" : {
+    "Assigned Reading" : {
+      "GP" : 150,
+      "INT" : 20,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Dancing velour (costume)" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "MNT" : 40,
+      "SP" : 60,
+      "Skill discount" : 3
+    },
+    "Knowledge Guardian" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "INT" : 20,
+      "SP" : 20
+    },
+    "Lazy fairy - pester her - give up" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "Skill discount" : 1
+    },
+    "The Chosen One" : {
+      "Affinity" : 8,
+      "INT" : 40,
+      "Mood" : 1,
+      "SP" : 40,
+      "Skill discount" : "2 random",
+      "Stamina" : 20
+    },
+    "Velour the lazy dancer (costume)" : {
+      "Affinity" : 8,
+      "DEX" : 40,
+      "INT" : 40,
+      "SP" : 60,
+      "Skill discount" : 2
+    }
+  },
   "Violet" : {
     "Elixir of love - drink it" : {
       "MNT" : 60,
@@ -2184,6 +2946,116 @@
       "DEX" : 30,
       "MNT" : 30,
       "SP" : 30
+    }
+  },
+  "Zena" : {
+    "About baseball" : {
+      "Affinity" : 8,
+      "INT" : 100,
+      "MNT" : 50
+    },
+    "Future girl" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "INT" : 20,
+      "SP" : 20
+    },
+    "Is Zena on a Diet?" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "Mood" : 1,
+      "SP" : 20,
+      "Skill discount" : 2
+    },
+    "Throwback to 2013 (costume)" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "MNT" : 50,
+      "SP" : 40,
+      "Skill discount" : 1
+    },
+    "Time-Travelling Zena (costume)" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "MNT" : 40,
+      "SKill discount" : 3,
+      "Stamina" : 50
+    },
+    "Why Time Travel?" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "Mood" : 1,
+      "SP" : 20
+    },
+    "Zena from the future - Accept" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "SP" : 50,
+      "Skill discount" : 2
+    },
+    "Zena from the future - decline" : {
+      "MNT" : 60,
+      "Mood" : 1,
+      "SP" : 60,
+      "Skill discount" : 2
+    }
+  },
+  "Zhizi" : {
+    "Zhizi's Flying Suit" : {
+      "Affinity" : 8,
+      "SP" : 50,
+      "STR" : 50,
+      "Skill discount" : 3
+    },
+    "Zhizi's Stamps" : {
+      "Affinity" : 8,
+      "INt" : 20,
+      "Mood" : 1,
+      "SP" : 20,
+      "STR" : 20
+    }
+  },
+  "Zia" : {
+    "Abstract Landscape" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Being supportive" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "Skill discount" : 1
+    },
+    "Gift for whom? (Approach her)" : {
+      "Affinity" : 8,
+      "GP" : 300,
+      "MNT" : 40,
+      "STR" : 40,
+      "Skill discount" : "2 random, high chance of horizontal cut"
+    },
+    "Gift for whom? (Dont approach her)" : {
+      "Affinity" : 8,
+      "MNT" : 40,
+      "SP" : 90,
+      "Stamina" : 30
+    },
+    "Mean Aristocrat" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Portraits (PLUS) - man in luxurious suit" : {
+      "Affinity" : 8,
+      "MNT" : 60,
+      "STR" : 50,
+      "Skill discount" : 2
+    },
+    "Portraits (PLUS) - man in training clothes" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "Mood" : 1,
+      "SP" : 90,
+      "STR" : 20
     }
   }
 }
