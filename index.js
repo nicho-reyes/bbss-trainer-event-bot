@@ -1,13 +1,11 @@
-require('dotenv').config();
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const TOKEN = process.env.TOKEN;
 const trainerEvents = require('./events.json');
 const events = JSON.parse(JSON.stringify(trainerEvents).toUpperCase());
 
 const eventEffects = ['AFFINITY', 'STR', 'MOOD', 'STAMINA', 'DEX', 'INT', 'MNT', 'SP', 'SKILL DISCOUNT', 'GP'];
 
-bot.login(TOKEN);
+bot.login(process.env.DJS_TOKEN);
 
 bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}!`);
