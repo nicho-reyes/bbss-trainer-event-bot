@@ -1,4 +1,46 @@
 {
+  "Albert" : {
+    "Hands-on Training" : {
+      "DEX" : 50,
+      "INT" : 60
+    },
+    "Strong theory - still he bought these for me" : {
+      "INT" : 60,
+      "STR" : 40,
+      "Skill discount" : 3
+    },
+    "Strong theory - whatever guess I'll just hit the books" : {
+      "INT" : 30,
+      "MNT" : 60,
+      "Stamina" : 40
+    }
+  },
+  "Allen" : {
+    "Popularity" : {
+      "Affinity" : 8,
+      "INT" : 40,
+      "SP" : 40,
+      "STR" : 40,
+      "Skill discount" : 1
+    },
+    "Special Flower" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "SP" : 20
+    },
+    "Treaty with Zenon" : {
+      "INT" : 30,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Two Groups" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "SP" : 40,
+      "STR" : 40,
+      "Stamina" : 30
+    }
+  },
   "Ara" : {
     "Ara's playlist (costume)" : {
       "Affinity" : 8,
@@ -80,6 +122,45 @@
       "INT" : 60,
       "SP" : 60,
       "Stamina" : 50
+    }
+  },
+  "Base Hero" : {
+    "Odd training - switch to horizontal swing" : {
+      "INT" : 20,
+      "SP" : 20,
+      "STR" : 20
+    }
+  },
+  "Basedevil" : {
+    "Demonic Teamwork" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "Skill discount" : 1
+    },
+    "Demonic training - practice as instructed" : {
+      "Affinity" : 8,
+      "SP" : 50,
+      "STR" : 50,
+      "Skill discount" : 2
+    },
+    "Demonic training - practice as usual" : {
+      "INT" : 40,
+      "MNT" : 40,
+      "SP" : 40,
+      "Skill discount" : 2
+    },
+    "King of demons" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Mental Training!" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "Stamina" : 30
     }
   },
   "Britra" : {
@@ -330,6 +411,44 @@
       "Skill discount" : 2
     }
   },
+  "Elfin" : {
+    "Benefits of Magic" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "SP" : 60,
+      "Skill discount" : 3
+    },
+    "Collecting parts - bow to her" : {
+      "Affinity" : 8,
+      "INT" : 60,
+      "SP" : 50,
+      "Skill discount" : "3 - burst"
+    },
+    "Magitech Engineer" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Magitech training" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "Mood" : 1,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "New Assistant" : {
+      "INT" : 40,
+      "SP" : 40,
+      "Skill discount" : 1
+    },
+    "Planet Noble" : {
+      "INT" : 20,
+      "Mood" : 1,
+      "SP" : 20,
+      "Skill discount" : 1
+    }
+  },
   "Eve" : {
     "A Pretty Girl" : {
       "Affinity" : 8,
@@ -423,6 +542,71 @@
       "SP" : 30,
       "Skill discount" : "1 or 3 random",
       "Stamina" : 50
+    }
+  },
+  "Golden Boy" : {
+    "Golden Boy's past (PLUS)" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "SP" : 40,
+      "STR" : 50
+    },
+    "Heyday - tell him you're not buying it" : {
+      "GP" : 600,
+      "SP" : 50,
+      "Skill discount" : 3
+    }
+  },
+  "Hannibal" : {
+    "Mightiest Mercenary" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "SP" : 20,
+      "STR" : 20
+    }
+  },
+  "Helen" : {
+    "A strict girl" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "INT" : 20,
+      "Mood" : -1,
+      "SP" : 30
+    },
+    "Her double life" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "SP" : 50
+    },
+    "Pride" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "INT" : 50,
+      "SP" : 50
+    },
+    "Standard" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 30,
+      "Skill discount" : 2
+    },
+    "suspect inspection - its my room I'll help you out" : {
+      "Affinity" : 8,
+      "DEX" : 40,
+      "SP" : 20,
+      "Skill discount" : 3,
+      "Stamina" : -10
+    },
+    "suspect inspection - thats very kind of you thank you" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "SP" : 20,
+      "Stamina" : 30
+    },
+    "the ace is here" : {
+      "DEX" : 30,
+      "INT" : 30,
+      "Stamina" : 20
     }
   },
   "Helga" : {
@@ -658,6 +842,85 @@
       "Skill discount" : "1 to 3 random"
     }
   },
+  "Kyoko" : {
+    "Customizing - pink - bunny - heart" : {
+      "SP" : 30,
+      "STR" : 40,
+      "Skill discount" : 3,
+      "Stamina" : 60,
+      "affinity" : 8
+    },
+    "Customizing - pink - squirrel - heart" : {
+      "SP" : 30,
+      "STR" : 40,
+      "Skill discount" : "2 to 3 random",
+      "affinity" : 8
+    },
+    "Gift picking - blue teddy" : {
+      "Affinity" : 8,
+      "SP" : 40,
+      "Stamina" : 30
+    },
+    "Gift picking - soccer ball" : {
+      "Affinity" : 8,
+      "GP" : 400,
+      "Stamina" : 30
+    },
+    "Good friends" : {
+      "GP" : 200,
+      "SP" : 20,
+      "STR" : 20,
+      "Stamina" : 20
+    },
+    "Happy violence" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "Mood" : 1,
+      "SP" : 30
+    },
+    "Riki's scent" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "SP" : 50,
+      "Skill discount" : 1,
+      "Stamina" : 30
+    },
+    "Virtue of waiting" : {
+      "Affinity" : 8,
+      "Cold Soba" : "MNT: 40",
+      "Grilled fish" : "INT: 40",
+      "Rice with Beef" : "STR: 40",
+      "SP" : 20,
+      "Spicy Ramen" : "DEX: 40"
+    },
+    "customizing - blue bunny heart" : {
+      "mnt" : 40,
+      "sp" : 30,
+      "stamina" : 60
+    },
+    "customizing - blue bunny star" : {
+      "mnt" : 40,
+      "sp" : 30
+    },
+    "customizing - blue squirrel heart" : {
+      "mnt" : 40,
+      "sp" : 30
+    },
+    "customizing - blue squirrel star" : {
+      "affinity" : 8,
+      "mnt" : 40,
+      "skill discount" : "2 and 2 random",
+      "sp" : 30
+    },
+    "customizing - pink bunny star" : {
+      "sp" : 30,
+      "str" : 40
+    },
+    "customizing - pink squirrel star" : {
+      "sp" : 30,
+      "str" : 40
+    }
+  },
   "Leon" : {
     "Battle League" : {
       "DEX" : 30,
@@ -834,6 +1097,32 @@
       "Skill discount" : "3 screwball"
     }
   },
+  "Lucy" : {
+    "Misunderstanding (costume)" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "SP" : 60,
+      "Skill discount" : 2
+    },
+    "Shoulder Rehab - Back away" : {
+      "Affinity" : 8,
+      "Mood" : -1,
+      "SP" : 30,
+      "Stamina" : 40
+    },
+    "Shoulder Rehab - Use it" : {
+      "INT" : 30,
+      "SP" : 30,
+      "Stamina" : -10
+    },
+    "Tree Fairy (Costume)" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "INT" : 50,
+      "SKill discount" : 2,
+      "SP" : 30
+    }
+  },
   "Luna" : {
     "A Note (PLUS)" : {
       "Affinity" : 8,
@@ -948,6 +1237,46 @@
       "Stamina" : 40
     }
   },
+  "Mei Mei" : {
+    "A Demon Too?" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 20,
+      "STR" : 20,
+      "Skill discount" : 1,
+      "Stamina" : -20
+    },
+    "Bittersweet Farewell" : {
+      "MNT" : 40,
+      "SP" : 20,
+      "Skill discount" : 1
+    },
+    "Frozen Corpse - cute like sister" : {
+      "Affinity" : 8,
+      "MNT" : 40,
+      "Mood" : -1,
+      "SP" : 20,
+      "Stamina" : 40
+    },
+    "Frozen Corpse Food (PLUS)" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "MNT" : 50,
+      "SP" : 50
+    },
+    "Frozen corpse - cute like puppy" : {
+      "Affinity" : 8,
+      "MNT" : 30,
+      "Mood" : 1,
+      "SP" : 30,
+      "Stamina" : -10
+    },
+    "Talisman (PLUS)" : {
+      "MNT" : 60,
+      "SP" : 50,
+      "Skill discount" : 3
+    }
+  },
   "Michaella" : {
     "A long trip" : {
       "MNT" : 20,
@@ -999,6 +1328,70 @@
       "Stamina" : 50
     }
   },
+  "Monique" : {
+    "A Long trip" : {
+      "MNT" : 20,
+      "SP" : 40,
+      "STR" : 15
+    },
+    "Hesitation" : {
+      "Affinity" : 8,
+      "Mood" : 1,
+      "SP" : 50,
+      "Skill discount" : 3,
+      "Stamina" : 40
+    },
+    "Indecisiveness - save her" : {
+      "Affinity" : 8,
+      "Mood" : 1,
+      "SP" : 50,
+      "Skill discount" : 3,
+      "Stamina" : 40
+    },
+    "Intimacy" : {
+      "Affinity" : 8,
+      "SP" : 40,
+      "Skill discount" : 2,
+      "Stamina" : 30
+    },
+    "Lonely Monique" : {
+      "Affinity" : 8,
+      "INT" : 30,
+      "SP" : 30,
+      "Skill discount" : 1
+    },
+    "Mumbling" : {
+      "Affinity" : 8,
+      "SP" : 20,
+      "STR" : 20,
+      "Skill discount" : 1
+    },
+    "Tough girl, are we?" : {
+      "Affinity" : 8,
+      "SP" : 30,
+      "Stamina" : 30
+    }
+  },
+  "Nameless" : {
+    "Nameless? (PLUS)" : {
+      "Affinity" : 8,
+      "DEX" : 50,
+      "GP" : 500,
+      "SP" : 50
+    },
+    "Netherworld trainer" : {
+      "Affinity" : 8,
+      "GP" : 200,
+      "MNT" : 40,
+      "SP" : 20
+    },
+    "Spooky Story" : {
+      "Affinity" : 8,
+      "GP" : 200,
+      "INT" : 20,
+      "SP" : 20
+    }
+  },
   "Nina" : {
     "A Reason for Tears" : {
       "Affinity" : 8,
@@ -1036,6 +1429,53 @@
       "INT" : 30,
       "Mood" : 1,
       "Skill discount" : "2 or 3 power batter"
+    }
+  },
+  "Nom" : {
+    "Bluffing Nom" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "INT" : 40,
+      "SP" : 50
+    },
+    "Dimension travel (PLUS)" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "SP" : 20,
+      "Skill discount" : 2
+    },
+    "Nom never stops - push out your right leg" : {
+      "DEX" : 60,
+      "Mood" : 1,
+      "SP" : 150,
+      "Skill discount" : 2
+    },
+    "Nom's Endurance (PLUS)" : {
+      "Affinity" : 13,
+      "DEX" : 60,
+      "MNT" : 60,
+      "SP" : 40
+    }
+  },
+  "Pi" : {
+    "Great Soul" : {
+      "Affinity" : 8,
+      "INT" : 20,
+      "MNT" : 20,
+      "SP" : 20
+    },
+    "Mind and body - Mental ability" : {
+      "Affinity" : 8,
+      "INT" : 50,
+      "MNT" : 60,
+      "SP" : 40
+    },
+    "Mind and body - physical ability" : {
+      "Affinity" : 8,
+      "DEX" : 60,
+      "SP" : 40,
+      "STR" : 60,
+      "Stamina" : -5
     }
   },
   "Pluto" : {
@@ -1083,6 +1523,51 @@
       "INT" : 50,
       "MNT" : 120,
       "SP" : 50
+    }
+  },
+  "Policia" : {
+    "Hold it Right There!" : {
+      "DEX" : 40,
+      "SP" : 20,
+      "Skill discount" : 1
+    },
+    "Just go already - hurry!" : {
+      "Affinity" : 13,
+      "DEX" : 50,
+      "SP" : 50,
+      "Skill discount" : 2
+    },
+    "Just go already - screw it, go back to sleep" : {
+      "Affinity" : -5,
+      "INT" : 60,
+      "SP" : 60,
+      "Stamina" : 70
+    },
+    "Passionate Cop" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Police Officer?" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "MNT" : 20,
+      "Mood" : 1,
+      "SP" : 20
+    },
+    "WANTED - decline" : {
+      "DEX" : 50,
+      "SP" : 45,
+      "STR" : 30,
+      "Skill discount" : 3
+    },
+    "WANTED - help her out" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "Mood" : 1,
+      "SP" : 50,
+      "Stamina" : 60
     }
   },
   "Psyker" : {
@@ -1465,6 +1950,88 @@
       "Affinity" : 8,
       "SP" : 30,
       "Stamina" : 40
+    }
+  },
+  "Sophie" : {
+    "Dancing is Hard! - decline" : {
+      "Affinity" : 8,
+      "MNT" : 40,
+      "Mood" : -1,
+      "SP" : 20,
+      "Stamina" : 40
+    },
+    "Dancing is Hard! - try it" : {
+      "Affinity" : 8,
+      "GP" : 200,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Dancing is too hard (PLUS)" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "INT" : 20,
+      "Mood" : 1,
+      "SP" : 50
+    },
+    "Shining angels fairy" : {
+      "Affinity" : 8,
+      "DEX" : 20,
+      "GP" : 200,
+      "SP" : 20
+    },
+    "Sophie the ambitious" : {
+      "Affinity" : 8,
+      "GP" : 200,
+      "SP" : 20,
+      "Skill Discount" : 1
+    },
+    "Studying is no fun (PLUS) - hide her" : {
+      "Affinity" : 8,
+      "GP" : 600,
+      "INT" : 40,
+      "SP" : 50
+    },
+    "Studying is no fun (PLUS) - take her" : {
+      "Affinity" : 8,
+      "SP" : 60,
+      "Skill discount" : "3 - moderate chance of resolve",
+      "Stamina" : 60
+    }
+  },
+  "Tauric" : {
+    "A Special Trial" : {
+      "Affinity" : 8,
+      "MNT" : 20,
+      "SP" : 20,
+      "STR" : 20
+    },
+    "Back in my day - admit that he's right" : {
+      "Affinity" : 8,
+      "SP" : 20,
+      "Skill discount" : "1 or 2",
+      "Stamina" : 30
+    },
+    "Back in my day - see his husle" : {
+      "Affinity" : 8,
+      "DEX" : 30,
+      "SP" : 20
+    },
+    "Delicious snacks (PLUS)" : {
+      "Affinity" : 8,
+      "GP" : 400,
+      "STR" : 50,
+      "Stamina" : 30
+    },
+    "No more hustle" : {
+      "SP" : 40,
+      "STR" : 20,
+      "Stamina" : 40
+    },
+    "Trial? What Trial? (PLUS) - try it" : {
+      "Affinity" : 13,
+      "SP" : 40,
+      "STR" : 50,
+      "Skill discount" : "2 and 1 or 3"
     }
   },
   "Tsubaki" : {
