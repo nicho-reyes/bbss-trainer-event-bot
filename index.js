@@ -14,7 +14,7 @@ admin.initializeApp({
 
 const db = admin.database().app.database();
 
-bot.login("NzkwMDY3MTY2OTUwNTg4NDU2.X97NYw.zYFnpQhcgPYg58lbhsF0e0Z5xho");
+bot.login(process.env.DJS_TOKEN);
 
 bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}!`);
