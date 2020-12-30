@@ -3,9 +3,18 @@ const bot = new Discord.Client();
 const trainerEvents = require('./events.json');
 const events = JSON.parse(JSON.stringify(trainerEvents).toUpperCase());
 
-const eventEffects = ['AFFINITY', 'STR', 'MOOD', 'STAMINA', 'DEX', 'INT', 'MNT', 'SP', 'SKILL DISCOUNT', 'GP'];
 
-bot.login(process.env.DJS_TOKEN);
+const admin = require("firebase-admin");
+const serviceAccount = require("./admin.json");
+
+admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+    databaseURL: "https://bbss-2020-trainer-events-default-rtdb.firebaseio.com"
+});
+
+const db = admin.database().app.database();
+
+bot.login("NzkwMDY3MTY2OTUwNTg4NDU2.X97NYw.zYFnpQhcgPYg58lbhsF0e0Z5xho");
 
 bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}!`);
@@ -13,15 +22,23 @@ bot.on('ready', () => {
 
 bot.on('message', msg => {
     if (msg.content.toLowerCase().startsWith("!trainer")) {
-        const trainerName = msg.content.replace('!trainer', '').toUpperCase().trim();
-        const trainerEvent = events[trainerName];
-        if (trainerEvent != null && trainerEvent != undefined) {
-            const arrEvents = getEvent(trainerEvent);
-            msg.channel.send(arrEvents.join(''));
-        }
+        const trainerName = toTitleCase(msg.content.replace('!trainer', '').toUpperCase().trim());
+        console.log(trainerName);
+        db.ref(trainerName).once('value').then((snapshot) => {
+            const trainerEvent = snapshot.val();
+            if (trainerEvent != null) {
+                const arrEvents = getEvent(trainerEvent);
+                msg.channel.send(arrEvents.join(''));
+            }
+        });
     }
 });
 
+function toTitleCase(str) {
+    return str.replace(/\w\S*/g, function (txt) {
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+}
 
 function getEvent(trainerEvent) {
     const eventArr = [];
