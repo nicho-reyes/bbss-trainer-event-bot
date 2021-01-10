@@ -26,7 +26,7 @@ function getAllTrainers() {
     const trainers = [];
 
     urTrainers.forEach(trainer => {
-        trainers.push({value: trainer, weight: 0.005, rarity: 'UR'})
+        trainers.push({value: trainer, weight: 0.05, rarity: 'UR'})
     });
 
     highRateSSR.forEach(trainer => {

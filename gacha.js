@@ -15,7 +15,7 @@ function roll() {
     return {value, weight, rarity};
 }
 
-const pull = function () {
+const pull = function (urTrainer) {
     const pullResult = [];
     let rTrainerCount = 0;
     for (let i = 0; i <= 10; i++) {
@@ -30,6 +30,10 @@ const pull = function () {
 
         if (rollResult.rarity === 'R') {
             rTrainerCount += 1;
+        }
+
+        if (rollResult.rarity === 'UR' && trainers.urTrainers.find(v => v.toLowerCase() === urTrainer.toLowerCase()) != null) {
+            rollResult.value = urTrainer;
         }
 
         pullResult.push(rollResult);

@@ -32,8 +32,9 @@ bot.on('message', msg => {
                 msg.channel.send(arrEvents.join(''));
             }
         });
-    } else if (channelMsg === '$gamble') {
-        const result = gacha.pull();
+    } else if (channelMsg.startsWith("$gamble")) {
+        const trainerName = toTitleCase(channelMsg.replace('$gamble', '').toUpperCase().trim());
+        const result = gacha.pull(trainerName);
         let counter = 0;
         const canvas = Canvas.createCanvas(550, 400);
         const ctx = canvas.getContext('2d');
@@ -60,6 +61,8 @@ bot.on('message', msg => {
                     } else if (item.rarity === 'UR') {
                         urRolls.push(item.value);
                     }
+                } else {
+                    console.error(item);
                 }
 
                 counter += 1;
@@ -84,8 +87,7 @@ bot.on('message', msg => {
 
                     rollMsg += '\n ';
                     rollMsg += '```';
-                    console.log(rollMsg);
-                    msg.channel.send(rollMsg, {
+                    msg.channel.send(`<@${msg.author.id}> Here are your trainers \n ${rollMsg}`, {
                         files: [{
                             attachment: canvas.toBuffer(),
                             name: 'file.jpg'
