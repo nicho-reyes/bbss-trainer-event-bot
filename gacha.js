@@ -21,8 +21,8 @@ const pull = function (urTrainer) {
     for (let i = 0; i <= 10; i++) {
         let rollResult = roll();
 
-        if (rTrainerCount === 8) {
-            // re-roll gacha, must have min of 3 sr trainers
+        if (rTrainerCount === 9) {
+            // re-roll gacha, must have min of 2 sr trainers
             while (rollResult.rarity === 'R') {
                 rollResult = roll();
             }
