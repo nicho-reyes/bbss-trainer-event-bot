@@ -76,7 +76,7 @@ function getLimitedTrainers() {
     const trainers = [];
 
     limitedUR.forEach(trainer => {
-        trainers.push({value: trainer, weight: 0.1, rarity: 'UR'})
+        trainers.push({value: trainer, weight: 1, rarity: 'UR'})
     });
 
     trainers.concat(lowTierTrainers(trainers));
