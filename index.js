@@ -111,7 +111,7 @@ bot.on('message', async (msg) => {
                             userDetails.totalKunioCount = 0;
                         }
 
-                        const kunioPulls = urPullCount.toString().match(/Kunio/g);
+                        const kunioPulls = rollMsg.toString().match(/Kunio/g);
                         if (kunioPulls != null) {
                             userDetails.totalKunioCount = userDetails.totalKunioCount + kunioPulls.length;
                         }
