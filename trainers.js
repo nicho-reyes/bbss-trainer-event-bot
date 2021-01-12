@@ -1,6 +1,9 @@
-const urTrainers = ['Roy', 'Ines', 'Clefina', 'Rachel', 'Michaella', 'Tsubaki', 'Luther', 'Flamesh', 'Britra'
-    , 'Chael', 'Helga', 'Seiryu', 'Kai', 'Nina', 'Sohyang', 'Ara', 'King Tiger', 'Luna', 'Eve', 'Lilith', 'Belita',
-    'Dragona', 'Regret', 'Leon', 'Rowena', 'Violet', 'Leonie', 'Pluto', 'Valentine', 'Ditto', 'Psyker'];
+const highRateUR = ['Ditto', 'Valentine', 'Belita', 'Dragona', 'Regret', 'Leon', 'Rowena', 'Leonie', 'Pluto', 'Clefina',
+    'Rachel', 'Luther', 'Britra', 'Chael', 'Seiryu', 'Kai', 'Nina', 'Sohyang', 'Eve'];
+
+const midRateUR = ['Ara', 'Luna', 'Flamesh', 'Helga', 'Tsubaki', 'Michaella', 'Ines'];
+
+const lowRateUR = ['Violet', 'Psyker', 'Roy', 'Lilith', 'King Tiger'];
 
 const highRateSSR = ['Yomi', 'Boomiger', 'Onestone', 'Base Angel', 'Hellfire', 'Lucia', 'Bora', 'Soldia', 'Hunter G', 'Captain Jack',
     'Aliana', 'MK-3', 'Scumbag Joe', 'Medica', 'Velour', 'Guy-E', 'Liew', 'Basedevil', 'Elfin', 'Golden Boy', 'Helen', 'Tauric', 'Base Hero', 'Mei Mei', 'Magnus'];
@@ -63,8 +66,16 @@ function lowTierTrainers(trainers) {
 function getAllTrainers() {
     const trainers = [];
 
-    urTrainers.forEach(trainer => {
-        trainers.push({value: trainer, weight: 0.05, rarity: 'UR'})
+    highRateUR.forEach(trainer => {
+        trainers.push({value: trainer, weight: 0.0207, rarity: 'UR'})
+    });
+
+    midRateUR.forEach(trainer => {
+        trainers.push({value: trainer, weight: 0.0124, rarity: 'UR'})
+    });
+
+    lowRateUR.forEach(trainer => {
+        trainers.push({value: trainer, weight: 0.0041, rarity: 'UR'})
     });
 
     trainers.concat(lowTierTrainers(trainers));
