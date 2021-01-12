@@ -106,6 +106,16 @@ bot.on('message', async (msg) => {
                             // initialize
                             userDetails.doubleURCount = 0;
                         }
+                        if (userDetails.totalKunioCount == null) {
+                            // initialize
+                            userDetails.totalKunioCount = 0;
+                        }
+
+                        const kunioPulls = urPullCount.toString().match(/Kunio/g);
+                        if (kunioPulls != null) {
+                            userDetails.totalKunioCount = userDetails.totalKunioCount + kunioPulls.length;
+                        }
+
                         userDetails.rPullCount = rPullCount;
                         userDetails.srPullCount = srPullCount;
                         userDetails.ssrPullCount = ssrPullCount;
@@ -116,6 +126,7 @@ bot.on('message', async (msg) => {
 
                         const gamblingSummary = "```" + `Total # of UR: ${urPullCount}`
                             + `\nTotal # of Double UR: ${userDetails.doubleURCount}`
+                            + `\nTotal # of (Limited) Kunio: ${userDetails.totalKunioCount}`
                             + `\nTotal # of SSR: ${ssrPullCount}`
                             + `\nTotal # of SR: ${srPullCount}`
                             + `\nTotal # of R: ${rPullCount}`

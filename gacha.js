@@ -2,7 +2,6 @@ const trainers = require('./trainers');
 
 function roll(limited) {
     const trainerPool = limited ? trainers.getLimitedTrainers() : trainers.getAllTrainers();
-    console.log(trainerPool.find(r => r.rarity === 'UR'));
     // [0..1) * sum of weight
     let sample =
         Math.random() *
