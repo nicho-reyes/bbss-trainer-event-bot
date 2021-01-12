@@ -27,6 +27,8 @@ const limitedUR = ['Kunio'];
 
 const ssrURTrainers = [...highRateSSR, ...midRateSSR, ...lowRateSSR];
 
+const urTrainers = [...lowRateUR, ...midRateUR, ...highRateUR];
+
 function lowTierTrainers(trainers) {
     highRateSSR.forEach(trainer => {
         trainers.push({value: trainer, weight: 0.0949, rarity: 'SSR'})
