@@ -35,7 +35,7 @@ bot.on('message', async (msg) => {
                 msg.channel.send(arrEvents.join(''));
             }
         });
-    } else if (channelMsg.startsWith("$gamble")) {
+    } else if (channelMsg.startsWith("$gamble") || channelMsg === '$kunio') {
         let userDetails = await Promise.resolve(getUserGamblingDetails(serverID, userID));
         if (allowUserGamblingCommand(userDetails)) {
 
@@ -43,9 +43,8 @@ bot.on('message', async (msg) => {
             if (userDetails == null) {
                 userDetails = {};
             }
-
             const trainerName = toTitleCase(channelMsg.replace('$gamble', '').toUpperCase().trim());
-            const result = gacha.pull(trainerName);
+            const result = gacha.pull(trainerName, channelMsg === '$kunio');
             let counter = 0;
             const canvas = Canvas.createCanvas(550, 400);
             const ctx = canvas.getContext('2d');

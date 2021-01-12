@@ -20,15 +20,11 @@ const lowRateSR = ['Amir', 'Lupina', 'Stinger', 'Cami', 'Popo', 'Shuri', 'Wonhee
 
 const rTrainers = ['Roland', 'Nick', 'Kang', 'Zett', 'Liz', 'Eva', 'Sarah', 'Matilda'];
 
+const limitedUR = ['Kunio'];
+
 const ssrURTrainers = [...highRateSSR, ...midRateSSR, ...lowRateSSR];
 
-function getAllTrainers() {
-    const trainers = [];
-
-    urTrainers.forEach(trainer => {
-        trainers.push({value: trainer, weight: 0.05, rarity: 'UR'})
-    });
-
+function lowTierTrainers(trainers) {
     highRateSSR.forEach(trainer => {
         trainers.push({value: trainer, weight: 0.0949, rarity: 'SSR'})
     });
@@ -64,6 +60,30 @@ function getAllTrainers() {
     return trainers;
 }
 
+function getAllTrainers() {
+    const trainers = [];
+
+    urTrainers.forEach(trainer => {
+        trainers.push({value: trainer, weight: 0.05, rarity: 'UR'})
+    });
+
+    trainers.concat(lowTierTrainers(trainers));
+
+    return trainers;
+}
+
+function getLimitedTrainers() {
+    const trainers = [];
+
+    limitedUR.forEach(trainer => {
+        trainers.push({value: trainer, weight: 0.1, rarity: 'UR'})
+    });
+
+    trainers.concat(lowTierTrainers(trainers));
+
+    return trainers;
+}
+
 module.exports.highSSRTrainers = highRateSSR;
 module.exports.midSSRTrainers = midRateSSR;
 module.exports.lowSSRTrainers = lowRateSSR;
@@ -71,3 +91,4 @@ module.exports.urTrainers = urTrainers;
 module.exports.rTrainers = rTrainers;
 module.exports.ssrURTrainers = ssrURTrainers;
 module.exports.getAllTrainers = getAllTrainers;
+module.exports.getLimitedTrainers = getLimitedTrainers;
