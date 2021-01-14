@@ -23,7 +23,9 @@ const lowRateSR = ['Amir', 'Lupina', 'Stinger', 'Cami', 'Popo', 'Shuri', 'Wonhee
 
 const rTrainers = ['Roland', 'Nick', 'Kang', 'Zett', 'Liz', 'Eva', 'Sarah', 'Matilda'];
 
-const limitedUR = ['Kunio'];
+const kunioUR = ['Kunio'];
+
+const bastetUR = ['Bastet'];
 
 const ssrURTrainers = [...highRateSSR, ...midRateSSR, ...lowRateSSR];
 
@@ -68,6 +70,12 @@ function lowTierTrainers(trainers) {
 function getAllTrainers() {
     const trainers = [];
 
+    return trainers.concat(lowTierTrainers(trainers), nonLimitedURTrainers());
+}
+
+function nonLimitedURTrainers() {
+    const trainers = [];
+
     highRateUR.forEach(trainer => {
         trainers.push({value: trainer, weight: 0.0207, rarity: 'UR'})
     });
@@ -80,17 +88,29 @@ function getAllTrainers() {
         trainers.push({value: trainer, weight: 0.0041, rarity: 'UR'})
     });
 
-    trainers.concat(lowTierTrainers(trainers));
-
     return trainers;
 }
 
-function getLimitedTrainers() {
+function getLimitedTrainers(limitedTrainer) {
     const trainers = [];
 
-    limitedUR.forEach(trainer => {
-        trainers.push({value: trainer, weight: 1, rarity: 'UR'})
-    });
+    if (limitedTrainer === 'Kunio') {
+        kunioUR.forEach(trainer => {
+            trainers.push({value: trainer, weight: 1, rarity: 'UR'})
+        });
+    } else if (limitedTrainer === 'Bastet') {
+        bastetUR.forEach(trainer => {
+            trainers.push({value: trainer, weight: .5, rarity: 'UR'})
+        });
+    } else {
+        const specTrainer = urTrainers.find(trainer => trainer === limitedTrainer);
+
+        if (specTrainer !== null) {
+            trainers.push({value: specTrainer.value, weight: .5, rarity: 'UR'})
+        } else {
+            trainers.concat(nonLimitedURTrainers());
+        }
+    }
 
     trainers.concat(lowTierTrainers(trainers));
 

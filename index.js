@@ -35,16 +35,23 @@ bot.on('message', async (msg) => {
                 msg.channel.send(arrEvents.join(''));
             }
         });
-    } else if (channelMsg.startsWith("$gamble") || channelMsg === '$kunio') {
+    } else if (channelMsg.startsWith("$gamble") || channelMsg.startsWith("$kunio") || channelMsg.startsWith("$bastet")) {
         let userDetails = await Promise.resolve(getUserGamblingDetails(serverID, userID));
         if (allowUserGamblingCommand(userDetails)) {
-
+            let limitedTrainer = false;
             // initialize for new user
             if (userDetails == null) {
                 userDetails = {};
             }
-            const trainerName = toTitleCase(channelMsg.replace('$gamble', '').toUpperCase().trim());
-            const result = gacha.pull(trainerName, channelMsg === '$kunio');
+            let trainerName = toTitleCase(channelMsg.replace('$gamble', '').toUpperCase().trim());
+            if (channelMsg.startsWith("$kunio")) {
+                trainerName = 'Kunio';
+                limitedTrainer = true;
+            } else if (channelMsg.startsWith("$bastet")) {
+                trainerName = 'Bastet';
+                limitedTrainer = true;
+            }
+            const result = gacha.pull(trainerName, limitedTrainer);
             let counter = 0;
             const canvas = Canvas.createCanvas(550, 400);
             const ctx = canvas.getContext('2d');
@@ -110,10 +117,19 @@ bot.on('message', async (msg) => {
                             // initialize
                             userDetails.totalKunioCount = 0;
                         }
+                        if (userDetails.totalBastetCount == null) {
+                            // initialize
+                            userDetails.totalBastetCount = 0;
+                        }
 
                         const kunioPulls = rollMsg.toString().match(/Kunio/g);
+                        const bastetPulls = rollMsg.toString().match(/Bastet/g)
                         if (kunioPulls != null) {
                             userDetails.totalKunioCount = userDetails.totalKunioCount + kunioPulls.length;
+                        }
+
+                        if (bastetPulls != null) {
+                            userDetails.totalBastetCount = userDetails.totalBastetCount + bastetPulls.length;
                         }
 
                         userDetails.rPullCount = rPullCount;
@@ -127,6 +143,7 @@ bot.on('message', async (msg) => {
                         const gamblingSummary = "```" + `Total # of UR: ${urPullCount}`
                             + `\nTotal # of Double UR: ${userDetails.doubleURCount}`
                             + `\nTotal # of (Limited) Kunio: ${userDetails.totalKunioCount}`
+                            + `\nTotal # of (Limited) Bastet: ${userDetails.totalBastetCount}`
                             + `\nTotal # of SSR: ${ssrPullCount}`
                             + `\nTotal # of SR: ${srPullCount}`
                             + `\nTotal # of R: ${rPullCount}`
