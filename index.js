@@ -52,6 +52,7 @@ bot.on('message', async (msg) => {
         } else if (command.startsWith('$')) { // gacha pull..
 
             if (!serverAllowedAccess && (await Promise.resolve(getServerAccess(serverID))) == null) {
+                console.info(serverID, msg.guild.name, 'restricted');
                 msg.channel.send(`<@${userID}> This is a premium command, and your server does not have permission, for premium features access you may contact the creator of this bot (mreggplant/badoodles)`);
                 return;
             } else {
