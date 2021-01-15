@@ -11,6 +11,10 @@ const dbCredentials = JSON.parse(process.env.DB_CRED);
 
 let serverAllowedAccess = false;
 
+const restricted = ['ActiveServer', 'PremiumAccess'];
+
+const ADD_TRAINER_SYNTAX_WRAPPER = /\[.*?\]/g;
+
 admin.initializeApp({
     credential: admin.credential.cert(dbCredentials),
     databaseURL: process.env.DB_NAME
@@ -18,7 +22,7 @@ admin.initializeApp({
 
 const db = admin.database().app.database();
 
-const commands = ['$gamble', '!trainer'];
+const commands = ['$gamble', '!trainer', '!trainer-add'];
 
 bot.login(process.env.DJS_TOKEN);
 
@@ -40,15 +44,32 @@ bot.on('message', async (msg) => {
     if (command != null) {
 
         // trainer event info..
-        if (command.startsWith('!') && channelMsg.startsWith("!trainer")) {
-            const trainerName = toTitleCase(channelMsg.replace('!trainer', '').toUpperCase().trim());
-            db.ref(trainerName).once('value').then((snapshot) => {
-                const trainerEvent = snapshot.val();
-                if (trainerEvent != null) {
-                    const arrEvents = getEvent(trainerEvent);
-                    msg.channel.send(arrEvents.join(''));
+        if (command.startsWith('!')) {
+            if (channelMsg.startsWith('!trainer-add')) {
+                const matchers = channelMsg.replace('!trainer-add', '').match(ADD_TRAINER_SYNTAX_WRAPPER);
+
+                if (matchers != null && matchers.length === 3) {
+                    if (restricted.find(v => matchers[0].toLowerCase() === `[${v.toLowerCase()}]`) == null) {
+                        await storeTrainerEvent(matchers[0], matchers[1], matchers[2], msg.author.username);
+                    } else {
+                        console.info(serverID, msg.guild.name, `${userID} ${msg.author.username} is trying to do some restricted commands`);
+                        msg.channel.send(`<@${userID}> This trainer name is not allowed`);
+                        return;
+                    }
+                    msg.channel.send(`<@${userID}> trainer event has been added, thank you! :heart_eyes:`);
+                } else {
+                    msg.channel.send(`<@${userID}> Syntax is invalid please following:\n` + "```" + '!trainer-add [trainer-name] [eventname] [event rewards]' + "```");
                 }
-            });
+            } else if (channelMsg.startsWith('!trainer')) {
+                const trainerName = toTitleCase(channelMsg.replace('!trainer', '').toUpperCase().trim());
+                db.ref(trainerName).once('value').then((snapshot) => {
+                    const trainerEvent = snapshot.val();
+                    if (trainerEvent != null) {
+                        const arrEvents = getEvent(trainerEvent);
+                        msg.channel.send(arrEvents.join(''));
+                    }
+                });
+            }
         } else if (command.startsWith('$')) { // gacha pull..
 
             if (!serverAllowedAccess && (await Promise.resolve(getServerAccess(serverID))) == null) {
@@ -197,6 +218,14 @@ async function getServerAccess(serverID) {
     });
 }
 
+function storeTrainerEvent(trainerName, eventName, eventRewards, authorName) {
+    db.ref(`${removeWrapperSyntax(trainerName)}`).update({[removeWrapperSyntax(eventName)]: `${removeWrapperSyntax(eventRewards)} \n entry made by ${authorName}`});
+}
+
+function removeWrapperSyntax(str) {
+    return toTitleCase(str).trim().replace('[', '').replace(']', '');
+}
+
 function toTitleCase(str) {
     return str.replace(/\w\S*/g, function (txt) {
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
@@ -206,11 +235,16 @@ function toTitleCase(str) {
 function getEvent(trainerEvent) {
     const eventArr = [];
     Object.keys(trainerEvent).forEach(key => {
-        let eventEffect = `***${key}***: ` + "```";
-        Object.keys(trainerEvent[key]).forEach(eventKey => {
-            eventEffect += `${eventKey}: ${trainerEvent[key][eventKey]} \n`;
-        });
-        eventEffect += "```";
+        let eventEffect = '';
+        if (typeof trainerEvent[key] === 'object') {
+            eventEffect = `***${key}***: ` + "```";
+            Object.keys(trainerEvent[key]).forEach(eventKey => {
+                eventEffect += `${eventKey}: ${trainerEvent[key][eventKey]} \n`;
+            });
+            eventEffect += "```";
+        } else if (typeof trainerEvent[key] === 'string') {
+            eventEffect = `***${key}***: ` + "```" + trainerEvent[key] + "```\n";
+        }
         eventArr.push(eventEffect);
     });
     return eventArr;
