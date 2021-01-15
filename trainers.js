@@ -68,9 +68,11 @@ function lowTierTrainers(trainers) {
 }
 
 function getAllTrainers() {
-    const trainers = [];
+    return [].concat(lowTierTrainers([]), nonLimitedURTrainers());
+}
 
-    return trainers.concat(lowTierTrainers(trainers), nonLimitedURTrainers());
+function getAllURTrainers() {
+    return [].concat(urTrainers, kunioUR, bastetUR);
 }
 
 function nonLimitedURTrainers() {
@@ -91,7 +93,7 @@ function nonLimitedURTrainers() {
     return trainers;
 }
 
-function getLimitedTrainers(limitedTrainer) {
+function getSpecificTrainers(limitedTrainer) {
     const trainers = [];
 
     if (limitedTrainer === 'Kunio') {
@@ -104,7 +106,6 @@ function getLimitedTrainers(limitedTrainer) {
         });
     } else {
         const specTrainer = urTrainers.find(trainer => trainer === limitedTrainer);
-
         if (specTrainer !== null) {
             trainers.push({value: specTrainer.value, weight: .5, rarity: 'UR'})
         } else {
@@ -124,4 +125,5 @@ module.exports.urTrainers = urTrainers;
 module.exports.rTrainers = rTrainers;
 module.exports.ssrURTrainers = ssrURTrainers;
 module.exports.getAllTrainers = getAllTrainers;
-module.exports.getLimitedTrainers = getLimitedTrainers;
+module.exports.getSpecificTrainers = getSpecificTrainers;
+module.exports.getAllURTrainers = getAllURTrainers;

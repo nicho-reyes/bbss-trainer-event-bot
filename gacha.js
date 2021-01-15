@@ -1,7 +1,7 @@
 const trainers = require('./trainers');
 
-function roll(limited, trainerName) {
-    const trainerPool = limited ? trainers.getLimitedTrainers(trainerName) : trainers.getAllTrainers();
+function roll(specific, trainerName) {
+    const trainerPool = specific ? trainers.getSpecificTrainers(trainerName) : trainers.getAllTrainers();
     // [0..1) * sum of weight
     let sample =
         Math.random() *
@@ -15,11 +15,11 @@ function roll(limited, trainerName) {
     return {value, weight, rarity};
 }
 
-const pull = function (urTrainer, limited) {
+const pull = function (urTrainer, specific) {
     const pullResult = [];
     let rTrainerCount = 0;
     for (let i = 0; i <= 10; i++) {
-        let rollResult = roll(limited, urTrainer);
+        let rollResult = roll(specific, urTrainer);
 
         if (rTrainerCount === 9) {
             // re-roll gacha, must have min of 2 sr trainers
