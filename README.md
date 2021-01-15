@@ -1,8 +1,4 @@
-# How to Build Your First Discord Bot with Node.js
-
-Michiel Mulders shows you how to install and set up a new Discord bot, which is made easier thanks to the API offered by the Discord.js package.
-
-Link to article on SitePoint: [https://www.sitepoint.com/discord-bot-node-js/](https://www.sitepoint.com/discord-bot-node-js/)
+# Baseball Superstars 2020 Trainer Discord Bot
 
 ## Requirements
 
@@ -16,6 +12,20 @@ Link to article on SitePoint: [https://www.sitepoint.com/discord-bot-node-js/](h
 3. Add Discord credentials in a `.env` file
 3. Run `node index.js`
 4. Interact with your Discord bot via your web browser
+
+## Commands
+`!trainer <trainer name>`
+  - lists the trainer events for a specific trainer name
+`!trainer-add [trainer name] [trainer event] [event rewards]`
+  - adds the trainer event
+
+`$gamble`
+  - simulates 10+1 premium pull (all UR trainers can be obtained, except limited ones)
+`$kunio`
+   - simulates kunio pull which has a rate of 1%
+`$<any UR trainer>`
+   - simulates a specific UR trainer banner which has a rate of 0.5%  
+
 
 ## License
 
