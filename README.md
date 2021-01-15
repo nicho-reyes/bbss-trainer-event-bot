@@ -22,9 +22,12 @@
 
 `$gamble`
   - simulates 10+1 premium pull (all UR trainers can be obtained, except limited ones)
+  
 `$kunio`
    - simulates kunio pull which has a rate of 1%
+   
 `$<any UR trainer>`
+
    - simulates a specific UR trainer banner which has a rate of 0.5%  
 
 
