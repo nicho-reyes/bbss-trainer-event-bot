@@ -1,14 +1,16 @@
+require('dotenv').config();
+
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const gacha = require('./gacha');
-
 const admin = require("firebase-admin");
-const serviceAccount = require("./admin.json");
 const Canvas = require('canvas');
 const gamblingCD = 10000;
+const dbCredentials = JSON.parse(process.env.DB_CRED);
+
 admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://bbss-2020-trainer-events-default-rtdb.firebaseio.com"
+    credential: admin.credential.cert(dbCredentials),
+    databaseURL: process.env.DB_NAME
 });
 
 const db = admin.database().app.database();
