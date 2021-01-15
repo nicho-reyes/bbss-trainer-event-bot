@@ -4,6 +4,7 @@
 
 - [Node.js](http://nodejs.org/)
 - [Discord](https://discordapp.com/) account
+- Firebase database
 
 ## Installation Steps (if applicable)
 
