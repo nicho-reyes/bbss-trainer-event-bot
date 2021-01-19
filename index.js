@@ -23,7 +23,7 @@ const db = admin.database().app.database();
 
 const commands = ['$gamble', '!trainer', '!trainer-add', '!servers', '$records'];
 
-bot.login('Nzk3NzUzNzE4MzQyMDI1MjI2.X_rEDA.SwEgoOhqc4mjpbj9qQvcHYin6sk');
+bot.login(process.env.DJS_TOKEN);
 
 bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}!`);

@@ -1,38 +1,3 @@
-# Baseball Superstars 2020 Trainer Discord Bot
-
-## Requirements
-
-- [Node.js](http://nodejs.org/)
-- [Discord](https://discordapp.com/) account
-- Firebase database
-
-## Installation Steps (if applicable)
-
-1. Clone repo
-2. Run `npm install`
-3. Add Discord & firebase credentials in a `.env` file
-3. Run `node index.js`
-4. Interact with your Discord bot via your web browser
-
-## Commands
-`!trainer <trainer name>`
-  - lists the trainer events for a specific trainer name
-`!trainer-add [trainer name] [trainer event] [event rewards]`
-  - adds the trainer event
-
-`$gamble`
-  - simulates 10+1 premium pull (all UR trainers can be obtained, except limited ones)
-  
-`$kunio`
-   - simulates kunio pull which has a rate of 1%
-   
-`$<any UR trainer>`
-
-   - simulates a specific UR trainer banner which has a rate of 0.5%  
-
-
-## License
-
 MIT License
 
 Copyright (c) 2021 Nicho Reyes
@@ -54,4 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
