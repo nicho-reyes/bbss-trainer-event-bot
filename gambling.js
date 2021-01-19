@@ -117,6 +117,10 @@ async function doGamble(db, serverID, userID, msg, command, currentDate) {
                         rollMsg += `\n UR Trainers => [${urRolls.join(', ')}]`
                     }
 
+                    rollMsg += guaranteedSSR.length > 0 ? `\n Guaranteed SSR => [${guaranteedSSR.join(', ')}]` : "";
+                    rollMsg += guaranteedUR.length > 0 ? `\n Guaranteed UR => [${guaranteedUR.join(', ')}]` : "";
+                    rollMsg += '```';
+
                     const doubleUR = urRolls.length > 1;
                     const rPullCount = userDetails.rPullCount != null ? userDetails.rPullCount + rRolls.length : rRolls.length;
                     const srPullCount = userDetails.srPullCount != null ? userDetails.srPullCount + srRolls.length : srRolls.length;
@@ -154,9 +158,6 @@ async function doGamble(db, serverID, userID, msg, command, currentDate) {
                     userDetails.LastPull = currentDate;
                     userDetails.doubleURCount = doubleUR ? userDetails.doubleURCount + 1 : userDetails.doubleURCount;
 
-                    rollMsg += guaranteedSSR.length > 0 ? `\n Guaranteed SSR => [${guaranteedSSR.join(', ')}]` : "";
-                    rollMsg += guaranteedUR.length > 0 ? `\n Guaranteed UR => [${guaranteedUR.join(', ')}]` : "";
-                    rollMsg += '```';
                     const gamblingSummary = "```"
                         + `\nSSR Pity: ${userDetails.ssrPity}`
                         + `\nUR Pity: ${userDetails.urPity}`
