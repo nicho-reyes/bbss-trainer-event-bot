@@ -74,15 +74,10 @@ bot.on('message', async (msg) => {
         } else if (command.startsWith('$')) { // premium pulls
             const foundServer = serversAllowedAccess.find(s => s === serverID);
             const hasPremium = await Promise.resolve(getServerAccess(serverID));
-            console.log(hasPremium);
-            if (foundServer === null && hasPremium == null) {
+            if (hasPremium == null) {
                 console.info(serverID, msg.guild.name, 'restricted');
-                msg.channel.send(`<@${userID}> This is a premium command, and your server does not have permission, for premium features access you may contact the creator of this bot (mreggplant/badoodles)`);
+                await msg.channel.send(`<@${userID}> This is a premium command, and your server does not have permission, for premium features access you may contact the creator of this bot (mreggplant/badoodles)`);
                 return;
-            } else {
-                if (foundServer == null) {
-                    serversAllowedAccess.push(serverID)
-                }
             }
 
             if (command.startsWith('$records')) {
