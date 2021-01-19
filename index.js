@@ -8,7 +8,7 @@ const trainers = require('./trainers');
 const dbCredentials = JSON.parse(process.env.DB_CRED);
 const utils = require('./utils')
 
-let serverAllowedAccess = false;
+let serversAllowedAccess = [];
 
 const restricted = ['ActiveServer', 'PremiumAccess'];
 
@@ -72,13 +72,15 @@ bot.on('message', async (msg) => {
                 });
             }
         } else if (command.startsWith('$')) { // premium pulls
-
-            if (!serverAllowedAccess && (await Promise.resolve(getServerAccess(serverID))) == null) {
+            const foundServer = serversAllowedAccess.find(s => s === serverID);
+            if (foundServer === null && (await Promise.resolve(getServerAccess(serverID))) == null) {
                 console.info(serverID, msg.guild.name, 'restricted');
                 msg.channel.send(`<@${userID}> This is a premium command, and your server does not have permission, for premium features access you may contact the creator of this bot (mreggplant/badoodles)`);
                 return;
             } else {
-                serverAllowedAccess = true;
+                if (foundServer == null) {
+                    serversAllowedAccess.push(serverID)
+                }
             }
 
             if (command.startsWith('$records')) {
@@ -93,6 +95,7 @@ bot.on('message', async (msg) => {
 
 async function getServerAccess(serverID) {
     return await db.ref(`PremiumAccess/${serverID}`).once('value').then(async (snapshot) => {
+        console.log(snapshot);
         return snapshot.val();
     });
 }
