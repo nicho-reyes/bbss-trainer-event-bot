@@ -15,16 +15,38 @@ function roll(specific, trainerName) {
     return {value, weight, rarity};
 }
 
-const pull = function (urTrainer, specific) {
+const pull = function (urTrainer, specific, userDetails) {
+
+    // initialize pity count
+    if (userDetails.ssrPity == null) {
+        userDetails.ssrPity = 0;
+    }
+    if (userDetails.urPity == null) {
+        userDetails.urPity = 0;
+    }
+
     const pullResult = [];
     let rTrainerCount = 0;
     for (let i = 0; i <= 10; i++) {
         let rollResult = roll(specific, urTrainer);
 
+        // check for pity
+        if (userDetails.urPity === 200) {
+            while (rollResult.rarity !== 'UR') {
+                rollResult = roll(specific, urTrainer);
+                rollResult.guaranteed = true;
+            }
+        } else if (userDetails.ssrPity === 35) {
+            while (rollResult.rarity !== 'SSR') {
+                rollResult = roll(specific, urTrainer);
+                rollResult.guaranteed = true;
+            }
+        }
+
         if (rTrainerCount === 9) {
             // re-roll gacha, must have min of 2 sr trainers
             while (rollResult.rarity === 'R') {
-                rollResult = roll();
+                rollResult = roll(specific, urTrainer);
             }
         }
 
@@ -32,8 +54,17 @@ const pull = function (urTrainer, specific) {
             rTrainerCount += 1;
         }
 
+        if (rollResult.rarity === 'SSR') {
+            userDetails.ssrPity = 0;
+        } else {
+            ++userDetails.ssrPity;
+        }
+
         if (rollResult.rarity === 'UR' && trainers.urTrainers.find(v => v.toLowerCase() === urTrainer.toLowerCase()) != null) {
             rollResult.value = urTrainer;
+            userDetails.urPity = 0;
+        } else {
+            ++userDetails.urPity;
         }
 
         pullResult.push(rollResult);
