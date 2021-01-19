@@ -60,11 +60,14 @@ const pull = function (urTrainer, specific, userDetails) {
             ++userDetails.ssrPity;
         }
 
-        if (rollResult.rarity === 'UR' && trainers.urTrainers.find(v => v.toLowerCase() === urTrainer.toLowerCase()) != null) {
-            rollResult.value = urTrainer;
+        if (rollResult.rarity === 'UR') {
             userDetails.urPity = 0;
         } else {
             ++userDetails.urPity;
+        }
+
+        if (rollResult.rarity === 'UR' && trainers.urTrainers.find(v => v.toLowerCase() === urTrainer.toLowerCase()) != null) {
+            rollResult.value = urTrainer;
         }
 
         pullResult.push(rollResult);
