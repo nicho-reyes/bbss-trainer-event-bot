@@ -36,8 +36,8 @@ async function getUserGamblingSummary(db, serverID, userID, msg) {
             + `\nTotal # of SSR: ${userDetails.ssrPullCount}`
             + `\nTotal # of SR: ${userDetails.srPullCount}`
             + `\nTotal # of R: ${userDetails.rPullCount}`
-            + `\nSSR Pity: ${userDetails.ssrPity}`
-            + `\nUR Pity: ${userDetails.urPity}`
+            + `\nSSR Pity Gauge: ${userDetails.ssrPity ? userDetails.ssrPity : 0}/35`
+            + `\nUR Pity Gauge: ${userDetails.urPity ? userDetails.urPity : 0}/200`
             + `\nTotal # of Gambles: ${userDetails.TotalPullCount}` + "```";
         msg.channel.send(`<@${userID}> Here are your gambling records ${gamblingSummary}`).catch(console.error);
     } else {
@@ -159,8 +159,8 @@ async function doGamble(db, serverID, userID, msg, command, currentDate) {
                     userDetails.doubleURCount = doubleUR ? userDetails.doubleURCount + 1 : userDetails.doubleURCount;
 
                     const gamblingSummary = "```"
-                        + `\nSSR Pity: ${userDetails.ssrPity}`
-                        + `\nUR Pity: ${userDetails.urPity}`
+                        + `\nSSR Pity Gauge: ${userDetails.ssrPity ? userDetails.ssrPity : 0}/35`
+                        + `\nUR Pity Gauge: ${userDetails.urPity ? userDetails.urPity : 0}/200`
                         + `\nTotal # of Gambles: ${totalPullCount}`
                         + "```";
 

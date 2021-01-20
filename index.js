@@ -101,7 +101,7 @@ function storeTrainerEvent(trainerName, eventName, eventRewards, authorName) {
 }
 
 function removeWrapperSyntax(str) {
-    return utils.toTitleCase(str).trim().replace('[', '').replace(']', '');
+    return utils.toTitleCase(str).replace('.', ' ').trim().replace('[', '').replace(']', '');
 }
 
 function getEvent(trainerEvent) {
