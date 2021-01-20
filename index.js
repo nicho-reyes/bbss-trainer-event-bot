@@ -8,8 +8,6 @@ const trainers = require('./trainers');
 const dbCredentials = JSON.parse(process.env.DB_CRED);
 const utils = require('./utils')
 
-let serversAllowedAccess = [];
-
 const restricted = ['ActiveServer', 'PremiumAccess'];
 
 const ADD_TRAINER_SYNTAX_WRAPPER = /\[.*?\]/g;
@@ -72,7 +70,6 @@ bot.on('message', async (msg) => {
                 });
             }
         } else if (command.startsWith('$')) { // premium pulls
-            const foundServer = serversAllowedAccess.find(s => s === serverID);
             const hasPremium = await Promise.resolve(getServerAccess(serverID));
             if (hasPremium == null) {
                 console.info(serverID, msg.guild.name, 'restricted');
@@ -87,6 +84,8 @@ bot.on('message', async (msg) => {
                 await gambling.doGamble(db, serverID, userID, msg, command, currentDate);
             }
         }
+
+        console.info(msg.guild.name, msg.author.username, channelMsg);
     }
 });
 
