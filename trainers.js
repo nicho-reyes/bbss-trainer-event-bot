@@ -6,8 +6,8 @@ const midRateUR = ['Ara', 'Luna', 'Flamesh', 'Helga', 'Tsubaki', 'Michaella', 'I
 const lowRateUR = ['Violet', 'Psyker', 'Roy', 'Lilith', 'King Tiger'];
 
 const highRateSSR = ['Yomi', 'Boomiger', 'Onestone', 'Base Angel', 'Hellfire', 'Lucia', 'Bora', 'Soldia', 'Hunter G', 'Captain Jack',
-    'Aliana', 'MK-3', 'Scumbag Joe', 'Medica', 'Velour', 'Guy-E', 'Liew', 'Basedevil', 'Elfin', 'Golden Boy', 'Helen', 'Tauric', 'Base Hero', 'Mei Mei', 'Magnus'
-    'Daphne'];
+    'Aliana', 'MK-3', 'Scumbag Joe', 'Medica', 'Velour', 'Guy-E', 'Liew', 'Basedevil', 'Elfin', 'Golden Boy', 'Helen', 'Tauric', 'Base Hero', 'Mei Mei',
+    'Magnus', 'Daphne'];
 
 const midRateSSR = ['Zena', 'Mia', 'Kryzer', 'Pi', 'Policia', 'NOM', 'Albert', 'Nameless', 'Sophie', 'Zia']
 
