@@ -1,5 +1,5 @@
 const highRateUR = ['Ditto', 'Valentine', 'Belita', 'Dragona', 'Regret', 'Leon', 'Rowena', 'Leonie', 'Pluto', 'Clefina',
-    'Rachel', 'Luther', 'Britra', 'Chael', 'Seiryu', 'Kai', 'Nina', 'Sohyang', 'Eve'];
+    'Rachel', 'Luther', 'Britra', 'Chael', 'Seiryu', 'Kai', 'Nina', 'Sohyang', 'Eve', 'Ceres'];
 
 const midRateUR = ['Ara', 'Luna', 'Flamesh', 'Helga', 'Tsubaki', 'Michaella', 'Ines', 'Dion'];
 
@@ -7,9 +7,9 @@ const lowRateUR = ['Violet', 'Psyker', 'Roy', 'Lilith', 'King Tiger'];
 
 const highRateSSR = ['Yomi', 'Boomiger', 'Onestone', 'Base Angel', 'Hellfire', 'Lucia', 'Bora', 'Soldia', 'Hunter G', 'Captain Jack',
     'Aliana', 'MK-3', 'Scumbag Joe', 'Medica', 'Velour', 'Guy-E', 'Liew', 'Basedevil', 'Elfin', 'Golden Boy', 'Helen', 'Tauric', 'Base Hero', 'Mei Mei',
-    'Magnus', 'Daphne'];
+    'Magnus', 'Penelope'];
 
-const midRateSSR = ['Zena', 'Mia', 'Kryzer', 'Pi', 'Policia', 'NOM', 'Albert', 'Nameless', 'Sophie', 'Zia']
+const midRateSSR = ['Zena', 'Mia', 'Kryzer', 'Pi', 'Policia', 'NOM', 'Albert', 'Nameless', 'Sophie', 'Zia', 'Daphne']
 
 const lowRateSSR = ['Zhizi', 'Psyche', 'Miho', 'Rose', 'Miho', 'Allen', 'Lucy', 'Monique']
 
