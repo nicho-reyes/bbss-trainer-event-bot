@@ -1,13 +1,17 @@
 {
-  "name": "discord-bot",
+  "name": "bbss-discord-bot",
   "version": "1.0.0",
-  "description": "Discord bot for SitePoint",
+  "description": "Discord bot for BBSS",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Michiel Mulders",
+  "engines": {
+    "npm": ">= 6.0.0",
+    "node": ">= 14.0.0 <15.0.0"
+  },
+  "author": "Nicho Reyes",
   "license": "ISC",
   "dependencies": {
     "canvas": "^2.6.1",
