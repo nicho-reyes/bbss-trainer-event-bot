@@ -19,7 +19,7 @@ admin.initializeApp({
 
 const db = admin.database().app.database();
 
-const commands = ['$gamble', '!trainer', '!trainer-add', '!servers', '$records'];
+const commands = ['$gamble', '-trainer', '!trainer-add', '!servers', '$records'];
 
 bot.login(process.env.DJS_TOKEN);
 
@@ -64,8 +64,8 @@ bot.on('message', async (msg) => {
                 db.ref(trainerName).once('value').then((snapshot) => {
                     const trainerEvent = snapshot.val();
                     if (trainerEvent != null) {
-                        const arrEvents = getEvent(trainerEvent);
-                        msg.channel.send(arrEvents.join(''));
+                        const arrEvents = getEvent(trainerEvent, trainerName);
+                        msg.channel.send(arrEvents);
                     }
                 });
             }
@@ -103,22 +103,30 @@ function removeWrapperSyntax(str) {
     return utils.toTitleCase(str).replace('.', ' ').trim().replace('[', '').replace(']', '');
 }
 
-function getEvent(trainerEvent) {
+function getEvent(trainerEvent, trainerName) {
     const eventArr = [];
+    const embed = new Discord.MessageEmbed()
+        .setColor('#DAF7A6');
     Object.keys(trainerEvent).forEach(key => {
-        let eventEffect = '';
         if (typeof trainerEvent[key] === 'object') {
-            eventEffect = `***${key}***: ` + "```";
-            Object.keys(trainerEvent[key]).forEach(eventKey => {
-                eventEffect += `${eventKey}: ${trainerEvent[key][eventKey]} \n`;
+            let eventEffect = '';
+            const trainerEventKeyValue = trainerEvent[key];
+            Object.keys(trainerEventKeyValue).forEach(eventKey => {
+                eventEffect += `${eventKey}: ${trainerEventKeyValue[eventKey]} `;
+            })
+            eventArr.push({
+                name: key,
+                value: eventEffect
             });
-            eventEffect += "```";
         } else if (typeof trainerEvent[key] === 'string') {
-            eventEffect = `***${key}***: ` + "```" + trainerEvent[key] + "```\n";
+            eventArr.push({
+                name: key,
+                value: trainerEvent[key]
+            });
         }
-        eventArr.push(eventEffect);
     });
-    return eventArr;
+    embed.addFields(eventArr);
+    return embed;
 }
 
 function getServerList(msg) {
